@@ -1,4 +1,4 @@
-### Yooo, I'm Ahmad! 👋
+### Hello, I'm Ahmad! 👋
 **Applied AI Engineer | Mobile Infrastructure | Systems Automation**
 
 I engineer autonomous systems, data pipelines, and intelligent mobile infrastructure. My focus is on bridging the gap between heavy-duty artificial intelligence and real-time, deployable hardware.
