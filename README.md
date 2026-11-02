@@ -33,12 +33,12 @@
 **⚡ Field-ready:** trained on xBD earthquake subsets and validated on unseen UAV disaster surveys; exported to ONNX and `.ptl` (3.5–6.5 MB mobile builds).
 <br><sub><i>📉 <a href="https://github.com/AhmadHasssan9181/QuakeSentinel">github.com/AhmadHasssan9181/QuakeSentinel</a> • Real-world earthquake evaluation & models.</i></sub>
 
-<a href="https://orbitweb.tech"><img src="assets/quest-orbit.svg" width="100%" alt="Main Quest 05: Orbit, sovereign Matrix messaging with E2EE and WebRTC"></a>
+<a href="https://github.com/AhmadHasssan9181/orbitx"><img src="assets/quest-orbit.svg" width="100%" alt="Main Quest 05: Orbit, sovereign Matrix messaging with E2EE and WebRTC"></a>
 
 **🔐 Privacy:** end-to-end encryption, SQLCipher local storage and zero telemetry.
-**📞 Calls:** WebRTC audio and video, wire-compatible with Element.
-**🧩 Clients:** Android (`orbitx` in Jetpack Compose), Kotlin Multiplatform desktop (`orbit`), and a TypeScript web client (`orbit-web`).
-<br><sub><i>🔒 Source is private. Landing page at <a href="https://orbitweb.tech">orbitweb.tech</a>.</i></sub>
+**📞 Calls:** native WebRTC audio and video calls, Element-compatible on the wire.
+**🧩 Clients:** Android (<a href="https://github.com/AhmadHasssan9181/orbitx">`orbitx`</a> in Jetpack Compose), desktop (<a href="https://github.com/AhmadHasssan9181/orbit">`orbit`</a> in Kotlin Multiplatform), and web (<a href="https://orbitweb.tech">`orbitweb.tech`</a>).
+<br><sub><i>🛰️ <a href="https://github.com/AhmadHasssan9181/orbitx">github.com/AhmadHasssan9181/orbitx</a> • Sovereign Matrix communication client.</i></sub>
 
 <img src="assets/quest-intelhub.svg" width="100%" alt="Main Quest 06: IntelHub, unified OSINT and intelligence fusion platform">
 
