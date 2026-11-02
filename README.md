@@ -8,30 +8,30 @@
 
 ## ⚔️ Main Quests
 
-<img src="assets/quest-waffle.svg" width="100%" alt="Main Quest 01: W.A.F.F.L.E., Wireless Autonomous Flying Fleet for Life Emergencies">
+<a href="https://github.com/AhmadHasssan9181/Waffle"><img src="assets/quest-waffle.svg" width="100%" alt="Main Quest 01: W.A.F.F.L.E., Wireless Autonomous Flying Fleet for Life Emergencies"></a>
 
 **🛩️ Avionics:** an Android phone as the companion computer, running flight logic over PX4 and the DJI SDK.
 **🧭 Pathing:** a PPO reinforcement-learning agent for obstacle avoidance and route planning.
-**🗺️ Ops:** MapLibre vector maps + OpenRouteService for live disaster-zone monitoring from the ground.
-<br><sub><i>🔒 Private build. Architecture walkthrough available on request.</i></sub>
+**🗺️ Ops:** MapLibre vector maps + OpenRouteService and GraphHopper for offline disaster-zone navigation.
+<br><sub><i>🚁 <a href="https://github.com/AhmadHasssan9181/Waffle">github.com/AhmadHasssan9181/Waffle</a> • Jetpack Compose & Offline Routing.</i></sub>
 
 <a href="https://github.com/AhmadHasssan9181/PYRO"><img src="assets/quest-pyro.svg" width="100%" alt="Main Quest 02: PYRO, real-time fire segmentation for UAV aerial imagery"></a>
 
 **🧠 Architecture:** MobileNetV3-Small encoder, ASPP bottleneck, 5-stage U-Net decoder with SE attention on the skips.
 **🎯 Constraints:** full 384×384 masks from aerial frames, trained on FLAME, built to cope with fire pixels being under 1% of an image.
-<br><sub><i>🔥 PyTorch · trained checkpoint included.</i></sub>
+<br><sub><i>🔥 <a href="https://github.com/AhmadHasssan9181/PYRO">github.com/AhmadHasssan9181/PYRO</a> • PyTorch trained checkpoint included.</i></sub>
 
-<img src="assets/quest-hydroguard.svg" width="100%" alt="Main Quest 03: HydroGuard / MoistViT, multi-head flood detection for low-power hardware">
+<a href="https://github.com/AhmadHasssan9181/MoistMachine"><img src="assets/quest-hydroguard.svg" width="100%" alt="Main Quest 03: HydroGuard / MoistViT, multi-head flood detection for low-power hardware"></a>
 
 **🧬 Model:** custom MoistViT & MobileNet + U-Net multi-head architectures (teacher-student & semi-supervised) adapted on Pakistan flood aerial imagery.
 **🌊 Edge exports:** 512×512 and 768×768 checkpoints exported to ONNX and TorchScript Lite (`.ptl`) for low-power field deployment.
-<br><sub><i>🧪 Research build (`MoistMachine`). Details on request.</i></sub>
+<br><sub><i>🧪 <a href="https://github.com/AhmadHasssan9181/MoistMachine">github.com/AhmadHasssan9181/MoistMachine</a> • Vision Transformer flood segmentation.</i></sub>
 
-<img src="assets/quest-quakevit.svg" width="100%" alt="Main Quest 04: QuakeViT / QuakeSentinel, aerial earthquake structural damage triage">
+<a href="https://github.com/AhmadHasssan9181/QuakeSentinel"><img src="assets/quest-quakevit.svg" width="100%" alt="Main Quest 04: QuakeViT / QuakeSentinel, aerial earthquake structural damage triage"></a>
 
 **🏚️ Architecture:** EfficientViT-B2 + Multi-Scale FPN (plus a lightweight MobileNetV4 variant) with a 3-class triage head: *Background*, *Intact* (Green), and *Damaged/Rubble* (Red).
 **⚡ Field-ready:** trained on xBD earthquake subsets and validated on unseen UAV disaster surveys; exported to ONNX and `.ptl` (3.5–6.5 MB mobile builds).
-<br><sub><i>📉 Pinpoints structural collapse & shear cracking while resisting false alarms on intact roofs and terrain.</i></sub>
+<br><sub><i>📉 <a href="https://github.com/AhmadHasssan9181/QuakeSentinel">github.com/AhmadHasssan9181/QuakeSentinel</a> • Real-world earthquake evaluation & models.</i></sub>
 
 <a href="https://orbitweb.tech"><img src="assets/quest-orbit.svg" width="100%" alt="Main Quest 05: Orbit, sovereign Matrix messaging with E2EE and WebRTC"></a>
 
