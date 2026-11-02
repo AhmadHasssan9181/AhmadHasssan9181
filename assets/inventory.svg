@@ -1,0 +1,168 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="430" viewBox="0 0 1200 430" role="img" aria-label="Inventory — tech stack">
+<title>Inventory — tech stack</title>
+<defs>
+  <pattern id="dots" width="22" height="22" patternUnits="userSpaceOnUse"><rect x="1" y="1" width="2.2" height="2.2" fill="#121826" opacity="0.09"/></pattern>
+  <pattern id="scan" width="4" height="4" patternUnits="userSpaceOnUse"><rect width="4" height="1.2" fill="#121826" opacity="0.05"/></pattern>
+  <clipPath id="ic"><rect x="6" y="6" width="1180" height="410" rx="18"/></clipPath>
+  <style>
+  .mono{font-family:'JetBrains Mono','Cascadia Code',Consolas,'SF Mono',Menlo,monospace;font-weight:700}
+  .disp{font-family:'Arial Black','Segoe UI Black','Helvetica Neue',Impact,Arial,sans-serif;font-weight:900}
+  .sans{font-family:'Segoe UI','Helvetica Neue',system-ui,-apple-system,Arial,sans-serif}
+  .blink{animation:blink 1s steps(1,end) infinite}
+  .blink-slow{animation:blink 1.6s steps(1,end) infinite}
+  @keyframes blink{50%{opacity:0}}
+  @media (prefers-reduced-motion: reduce){*{animation:none!important}}
+
+    .pop{animation:pop .45s cubic-bezier(.2,1.6,.4,1) both;transform-box:fill-box;transform-origin:center}
+    @keyframes pop{from{opacity:0;transform:scale(.6)}to{opacity:1;transform:scale(1)}}
+    .shine{animation:shine 4s ease-in-out infinite;transform-box:fill-box;transform-origin:center}
+    @keyframes shine{0%,70%{transform:skewX(-20deg) translateX(0)}100%{transform:skewX(-20deg) translateX(320px)}}
+  </style>
+</defs>
+<rect x="14" y="14" width="1180" height="410" rx="18" fill="#8b5cf6"/><rect x="6" y="6" width="1180" height="410" rx="18" fill="#fffdf8" stroke="#121826" stroke-width="3"/>
+<g clip-path="url(#ic)"><rect x="6" y="6" width="1180" height="410" fill="url(#dots)"/></g>
+<g><rect x="36" y="28" width="128" height="28" rx="6" fill="#121826" stroke="#121826" stroke-width="2.5"/><text x="100.75" y="46.7" text-anchor="middle" class="mono" font-size="13" letter-spacing="1.5" fill="#ffd23f">&#9632; INVENTORY</text></g>
+<text x="1160" y="47" text-anchor="end" class="mono" font-size="12" letter-spacing="2" fill="#8a94a6">15 / 15 SLOTS &#183; <tspan fill="#ff3d7f">WEIGHT: HEAVY</tspan></text>
+<path d="M36 72H1160" stroke="#121826" stroke-width="2" stroke-dasharray="6 6" opacity="0.35"/>
+<text x="36" y="126" class="mono" font-size="14" letter-spacing="1" fill="#121826">INTELLIGENCE</text>
+      <text x="36" y="146" class="mono" font-size="10" letter-spacing="2" fill="#8a94a6">MODELS &amp; DATA</text><clipPath id="slot00"><rect x="252" y="92" width="170" height="72" rx="10"/></clipPath>
+      <g class="pop" style="animation-delay:0.15s">
+        <rect x="257" y="97" width="170" height="72" rx="10" fill="#ff8a00"/>
+        <rect x="252" y="92" width="170" height="72" rx="10" fill="#ffffff" stroke="#121826" stroke-width="2.5"/>
+        <rect x="263" y="104" width="48" height="48" rx="7" fill="#fff1dd" stroke="#121826" stroke-width="2"/>
+        <text x="287" y="136" text-anchor="middle" class="disp" font-size="20" fill="#121826">Py</text>
+        <text x="322" y="125" class="mono" font-size="14" fill="#121826">Python</text>
+        <text x="322" y="145" class="mono" font-size="9.5" letter-spacing="1.5" fill="#ff8a00">LEGENDARY</text>
+        <g clip-path="url(#slot00)"><rect class="shine" x="172" y="82" width="40" height="100" fill="#ffffff" opacity="0.7" transform="skewX(-20)" style="animation-delay:0.37s"/></g>
+      </g><clipPath id="slot01"><rect x="436" y="92" width="170" height="72" rx="10"/></clipPath>
+      <g class="pop" style="animation-delay:0.21s">
+        <rect x="441" y="97" width="170" height="72" rx="10" fill="#ff8a00"/>
+        <rect x="436" y="92" width="170" height="72" rx="10" fill="#ffffff" stroke="#121826" stroke-width="2.5"/>
+        <rect x="447" y="104" width="48" height="48" rx="7" fill="#fff1dd" stroke="#121826" stroke-width="2"/>
+        <text x="471" y="136" text-anchor="middle" class="disp" font-size="20" fill="#121826">PT</text>
+        <text x="506" y="125" class="mono" font-size="14" fill="#121826">PyTorch</text>
+        <text x="506" y="145" class="mono" font-size="9.5" letter-spacing="1.5" fill="#ff8a00">LEGENDARY</text>
+        <g clip-path="url(#slot01)"><rect class="shine" x="356" y="82" width="40" height="100" fill="#ffffff" opacity="0.7" transform="skewX(-20)" style="animation-delay:0.74s"/></g>
+      </g><clipPath id="slot02"><rect x="620" y="92" width="170" height="72" rx="10"/></clipPath>
+      <g class="pop" style="animation-delay:0.27s">
+        <rect x="625" y="97" width="170" height="72" rx="10" fill="#8b5cf6"/>
+        <rect x="620" y="92" width="170" height="72" rx="10" fill="#ffffff" stroke="#121826" stroke-width="2.5"/>
+        <rect x="631" y="104" width="48" height="48" rx="7" fill="#f1ebff" stroke="#121826" stroke-width="2"/>
+        <text x="655" y="136" text-anchor="middle" class="disp" font-size="20" fill="#121826">CV</text>
+        <text x="690" y="125" class="mono" font-size="14" fill="#121826">OpenCV</text>
+        <text x="690" y="145" class="mono" font-size="9.5" letter-spacing="1.5" fill="#8b5cf6">EPIC</text>
+        
+      </g><clipPath id="slot03"><rect x="804" y="92" width="170" height="72" rx="10"/></clipPath>
+      <g class="pop" style="animation-delay:0.33s">
+        <rect x="809" y="97" width="170" height="72" rx="10" fill="#3d5afe"/>
+        <rect x="804" y="92" width="170" height="72" rx="10" fill="#ffffff" stroke="#121826" stroke-width="2.5"/>
+        <rect x="815" y="104" width="48" height="48" rx="7" fill="#e8ecff" stroke="#121826" stroke-width="2"/>
+        <text x="839" y="136" text-anchor="middle" class="disp" font-size="20" fill="#121826">NP</text>
+        <text x="874" y="125" class="mono" font-size="14" fill="#121826">NumPy</text>
+        <text x="874" y="145" class="mono" font-size="9.5" letter-spacing="1.5" fill="#3d5afe">RARE</text>
+        
+      </g><clipPath id="slot04"><rect x="988" y="92" width="170" height="72" rx="10"/></clipPath>
+      <g class="pop" style="animation-delay:0.39s">
+        <rect x="993" y="97" width="170" height="72" rx="10" fill="#8b5cf6"/>
+        <rect x="988" y="92" width="170" height="72" rx="10" fill="#ffffff" stroke="#121826" stroke-width="2.5"/>
+        <rect x="999" y="104" width="48" height="48" rx="7" fill="#f1ebff" stroke="#121826" stroke-width="2"/>
+        <text x="1023" y="136" text-anchor="middle" class="disp" font-size="20" fill="#121826">Gm</text>
+        <text x="1058" y="125" class="mono" font-size="14" fill="#121826">Gemini</text>
+        <text x="1058" y="145" class="mono" font-size="9.5" letter-spacing="1.5" fill="#8b5cf6">EPIC</text>
+        
+      </g><text x="36" y="218" class="mono" font-size="14" letter-spacing="1" fill="#121826">FLIGHT &amp; HARDWARE</text>
+      <text x="36" y="238" class="mono" font-size="10" letter-spacing="2" fill="#8a94a6">THINGS THAT FLY</text><clipPath id="slot10"><rect x="252" y="184" width="170" height="72" rx="10"/></clipPath>
+      <g class="pop" style="animation-delay:0.45s">
+        <rect x="257" y="189" width="170" height="72" rx="10" fill="#ff8a00"/>
+        <rect x="252" y="184" width="170" height="72" rx="10" fill="#ffffff" stroke="#121826" stroke-width="2.5"/>
+        <rect x="263" y="196" width="48" height="48" rx="7" fill="#fff1dd" stroke="#121826" stroke-width="2"/>
+        <text x="287" y="228" text-anchor="middle" class="disp" font-size="20" fill="#121826">PX</text>
+        <text x="322" y="217" class="mono" font-size="14" fill="#121826">PX4</text>
+        <text x="322" y="237" class="mono" font-size="9.5" letter-spacing="1.5" fill="#ff8a00">LEGENDARY</text>
+        <g clip-path="url(#slot10)"><rect class="shine" x="172" y="174" width="40" height="100" fill="#ffffff" opacity="0.7" transform="skewX(-20)" style="animation-delay:2.22s"/></g>
+      </g><clipPath id="slot11"><rect x="436" y="184" width="170" height="72" rx="10"/></clipPath>
+      <g class="pop" style="animation-delay:0.51s">
+        <rect x="441" y="189" width="170" height="72" rx="10" fill="#8b5cf6"/>
+        <rect x="436" y="184" width="170" height="72" rx="10" fill="#ffffff" stroke="#121826" stroke-width="2.5"/>
+        <rect x="447" y="196" width="48" height="48" rx="7" fill="#f1ebff" stroke="#121826" stroke-width="2"/>
+        <text x="471" y="228" text-anchor="middle" class="disp" font-size="20" fill="#121826">DJ</text>
+        <text x="506" y="217" class="mono" font-size="14" fill="#121826">DJI SDK</text>
+        <text x="506" y="237" class="mono" font-size="9.5" letter-spacing="1.5" fill="#8b5cf6">EPIC</text>
+        
+      </g><clipPath id="slot12"><rect x="620" y="184" width="170" height="72" rx="10"/></clipPath>
+      <g class="pop" style="animation-delay:0.57s">
+        <rect x="625" y="189" width="170" height="72" rx="10" fill="#ff8a00"/>
+        <rect x="620" y="184" width="170" height="72" rx="10" fill="#ffffff" stroke="#121826" stroke-width="2.5"/>
+        <rect x="631" y="196" width="48" height="48" rx="7" fill="#fff1dd" stroke="#121826" stroke-width="2"/>
+        <text x="655" y="228" text-anchor="middle" class="disp" font-size="20" fill="#121826">An</text>
+        <text x="690" y="217" class="mono" font-size="14" fill="#121826">Android</text>
+        <text x="690" y="237" class="mono" font-size="9.5" letter-spacing="1.5" fill="#ff8a00">LEGENDARY</text>
+        <g clip-path="url(#slot12)"><rect class="shine" x="540" y="174" width="40" height="100" fill="#ffffff" opacity="0.7" transform="skewX(-20)" style="animation-delay:2.96s"/></g>
+      </g><clipPath id="slot13"><rect x="804" y="184" width="170" height="72" rx="10"/></clipPath>
+      <g class="pop" style="animation-delay:0.63s">
+        <rect x="809" y="189" width="170" height="72" rx="10" fill="#ff8a00"/>
+        <rect x="804" y="184" width="170" height="72" rx="10" fill="#ffffff" stroke="#121826" stroke-width="2.5"/>
+        <rect x="815" y="196" width="48" height="48" rx="7" fill="#fff1dd" stroke="#121826" stroke-width="2"/>
+        <text x="839" y="228" text-anchor="middle" class="disp" font-size="20" fill="#121826">Kt</text>
+        <text x="874" y="217" class="mono" font-size="14" fill="#121826">Kotlin</text>
+        <text x="874" y="237" class="mono" font-size="9.5" letter-spacing="1.5" fill="#ff8a00">LEGENDARY</text>
+        <g clip-path="url(#slot13)"><rect class="shine" x="724" y="174" width="40" height="100" fill="#ffffff" opacity="0.7" transform="skewX(-20)" style="animation-delay:3.33s"/></g>
+      </g><clipPath id="slot14"><rect x="988" y="184" width="170" height="72" rx="10"/></clipPath>
+      <g class="pop" style="animation-delay:0.69s">
+        <rect x="993" y="189" width="170" height="72" rx="10" fill="#3d5afe"/>
+        <rect x="988" y="184" width="170" height="72" rx="10" fill="#ffffff" stroke="#121826" stroke-width="2.5"/>
+        <rect x="999" y="196" width="48" height="48" rx="7" fill="#e8ecff" stroke="#121826" stroke-width="2"/>
+        <text x="1023" y="228" text-anchor="middle" class="disp" font-size="20" fill="#121826">Fl</text>
+        <text x="1058" y="217" class="mono" font-size="14" fill="#121826">Flutter</text>
+        <text x="1058" y="237" class="mono" font-size="9.5" letter-spacing="1.5" fill="#3d5afe">RARE</text>
+        
+      </g><text x="36" y="310" class="mono" font-size="14" letter-spacing="1" fill="#121826">SYSTEMS &amp; AUTOMATION</text>
+      <text x="36" y="330" class="mono" font-size="10" letter-spacing="2" fill="#8a94a6">KEEPS IT ALIVE</text><clipPath id="slot20"><rect x="252" y="276" width="170" height="72" rx="10"/></clipPath>
+      <g class="pop" style="animation-delay:0.75s">
+        <rect x="257" y="281" width="170" height="72" rx="10" fill="#8b5cf6"/>
+        <rect x="252" y="276" width="170" height="72" rx="10" fill="#ffffff" stroke="#121826" stroke-width="2.5"/>
+        <rect x="263" y="288" width="48" height="48" rx="7" fill="#f1ebff" stroke="#121826" stroke-width="2"/>
+        <text x="287" y="320" text-anchor="middle" class="disp" font-size="20" fill="#121826">Lx</text>
+        <text x="322" y="309" class="mono" font-size="14" fill="#121826">Linux</text>
+        <text x="322" y="329" class="mono" font-size="9.5" letter-spacing="1.5" fill="#8b5cf6">EPIC</text>
+        
+      </g><clipPath id="slot21"><rect x="436" y="276" width="170" height="72" rx="10"/></clipPath>
+      <g class="pop" style="animation-delay:0.81s">
+        <rect x="441" y="281" width="170" height="72" rx="10" fill="#8b5cf6"/>
+        <rect x="436" y="276" width="170" height="72" rx="10" fill="#ffffff" stroke="#121826" stroke-width="2.5"/>
+        <rect x="447" y="288" width="48" height="48" rx="7" fill="#f1ebff" stroke="#121826" stroke-width="2"/>
+        <text x="471" y="320" text-anchor="middle" class="disp" font-size="20" fill="#121826">Gt</text>
+        <text x="506" y="309" class="mono" font-size="14" fill="#121826">Git</text>
+        <text x="506" y="329" class="mono" font-size="9.5" letter-spacing="1.5" fill="#8b5cf6">EPIC</text>
+        
+      </g><clipPath id="slot22"><rect x="620" y="276" width="170" height="72" rx="10"/></clipPath>
+      <g class="pop" style="animation-delay:0.87s">
+        <rect x="625" y="281" width="170" height="72" rx="10" fill="#3d5afe"/>
+        <rect x="620" y="276" width="170" height="72" rx="10" fill="#ffffff" stroke="#121826" stroke-width="2.5"/>
+        <rect x="631" y="288" width="48" height="48" rx="7" fill="#e8ecff" stroke="#121826" stroke-width="2"/>
+        <text x="655" y="320" text-anchor="middle" class="disp" font-size="20" fill="#121826">Dk</text>
+        <text x="690" y="309" class="mono" font-size="14" fill="#121826">Docker</text>
+        <text x="690" y="329" class="mono" font-size="9.5" letter-spacing="1.5" fill="#3d5afe">RARE</text>
+        
+      </g><clipPath id="slot23"><rect x="804" y="276" width="170" height="72" rx="10"/></clipPath>
+      <g class="pop" style="animation-delay:0.93s">
+        <rect x="809" y="281" width="170" height="72" rx="10" fill="#3d5afe"/>
+        <rect x="804" y="276" width="170" height="72" rx="10" fill="#ffffff" stroke="#121826" stroke-width="2.5"/>
+        <rect x="815" y="288" width="48" height="48" rx="7" fill="#e8ecff" stroke="#121826" stroke-width="2"/>
+        <text x="839" y="320" text-anchor="middle" class="disp" font-size="20" fill="#121826">Se</text>
+        <text x="874" y="309" class="mono" font-size="14" fill="#121826">Selenium</text>
+        <text x="874" y="329" class="mono" font-size="9.5" letter-spacing="1.5" fill="#3d5afe">RARE</text>
+        
+      </g><clipPath id="slot24"><rect x="988" y="276" width="170" height="72" rx="10"/></clipPath>
+      <g class="pop" style="animation-delay:0.99s">
+        <rect x="993" y="281" width="170" height="72" rx="10" fill="#3d5afe"/>
+        <rect x="988" y="276" width="170" height="72" rx="10" fill="#ffffff" stroke="#121826" stroke-width="2.5"/>
+        <rect x="999" y="288" width="48" height="48" rx="7" fill="#e8ecff" stroke="#121826" stroke-width="2"/>
+        <text x="1023" y="320" text-anchor="middle" class="disp" font-size="20" fill="#121826">Un</text>
+        <text x="1058" y="309" class="mono" font-size="14" fill="#121826">Unity</text>
+        <text x="1058" y="329" class="mono" font-size="9.5" letter-spacing="1.5" fill="#3d5afe">RARE</text>
+        
+      </g>
+<text x="36" y="394" class="mono" font-size="12" letter-spacing="2" fill="#121826">ACTIVE BUFFS &#9656;</text>
+<g><rect x="196" y="376" width="151" height="26" rx="6" fill="#ffe3ee" stroke="#121826" stroke-width="2.5"/><text x="272.1" y="393.0" text-anchor="middle" class="mono" font-size="11" letter-spacing="1.2" fill="#121826">+ EDGE INFERENCE</text></g><g><rect x="357" y="376" width="167" height="26" rx="6" fill="#e8ecff" stroke="#121826" stroke-width="2.5"/><text x="441.1" y="393.0" text-anchor="middle" class="mono" font-size="11" letter-spacing="1.2" fill="#121826">+ MULTI-AGENT SIMS</text></g><g><rect x="534" y="376" width="143" height="26" rx="6" fill="#eaf9d9" stroke="#121826" stroke-width="2.5"/><text x="606.1" y="393.0" text-anchor="middle" class="mono" font-size="11" letter-spacing="1.2" fill="#121826">+ RL FOR FLIGHT</text></g><g><rect x="687" y="376" width="175" height="26" rx="6" fill="#fff3d6" stroke="#121826" stroke-width="2.5"/><text x="775.1" y="393.0" text-anchor="middle" class="mono" font-size="11" letter-spacing="1.2" fill="#121826">+ DATASET PIPELINES</text></g>
+</svg>

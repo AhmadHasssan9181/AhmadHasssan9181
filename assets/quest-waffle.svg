@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="270" viewBox="0 0 1200 270" role="img" aria-label="W.A.F.F.L.E.">
+<title>W.A.F.F.L.E.</title>
+<defs>
+  <pattern id="dots" width="22" height="22" patternUnits="userSpaceOnUse"><rect x="1" y="1" width="2.2" height="2.2" fill="#121826" opacity="0.09"/></pattern>
+  <pattern id="scan" width="4" height="4" patternUnits="userSpaceOnUse"><rect width="4" height="1.2" fill="#121826" opacity="0.05"/></pattern>
+  
+  <clipPath id="qcW"><rect x="6" y="6" width="1180" height="250" rx="18"/></clipPath>
+  <clipPath id="scW"><rect x="0" y="0" width="396" height="206" rx="12"/></clipPath>
+  
+  <style>
+  .mono{font-family:'JetBrains Mono','Cascadia Code',Consolas,'SF Mono',Menlo,monospace;font-weight:700}
+  .disp{font-family:'Arial Black','Segoe UI Black','Helvetica Neue',Impact,Arial,sans-serif;font-weight:900}
+  .sans{font-family:'Segoe UI','Helvetica Neue',system-ui,-apple-system,Arial,sans-serif}
+  .blink{animation:blink 1s steps(1,end) infinite}
+  .blink-slow{animation:blink 1.6s steps(1,end) infinite}
+  @keyframes blink{50%{opacity:0}}
+  @media (prefers-reduced-motion: reduce){*{animation:none!important}}
+
+    .dash{animation:dash 1.2s linear infinite}@keyframes dash{to{stroke-dashoffset:-28}}
+    </style>
+</defs>
+<rect x="14" y="14" width="1180" height="250" rx="18" fill="#3d5afe"/><rect x="6" y="6" width="1180" height="250" rx="18" fill="#fff" stroke="#121826" stroke-width="3"/>
+<g clip-path="url(#qcW)"><rect x="6" y="6" width="740" height="250" fill="url(#dots)"/></g>
+
+<g><rect x="40" y="30" width="112" height="26" rx="6" fill="#3d5afe" stroke="#121826" stroke-width="2.5"/><text x="96.75" y="47.3" text-anchor="middle" class="mono" font-size="12" letter-spacing="1.5" fill="#fff">MAIN QUEST</text></g><g><rect x="162" y="30" width="49" height="26" rx="6" fill="#fff" stroke="#121826" stroke-width="2.5"/><text x="187.25" y="47.3" text-anchor="middle" class="mono" font-size="12" letter-spacing="1.5" fill="#121826">#01</text></g>
+<text x="227" y="48" class="mono" font-size="11" letter-spacing="2.2" fill="#8a94a6">&#9656; AUTONOMOUS FLEET</text>
+<text x="740" y="48" text-anchor="end" class="mono" font-size="11" letter-spacing="2" fill="#8a94a6">DIFFICULTY <tspan font-size="15"><tspan fill="#3d5afe">&#9733;&#9733;&#9733;&#9733;&#9733;</tspan><tspan fill="#d6d9e0"></tspan></tspan></text>
+
+<text x="44" y="116" class="disp" font-size="50" letter-spacing="-1" fill="#3d5afe">W.A.F.F.L.E.</text>
+<text x="40" y="112" class="disp" font-size="50" letter-spacing="-1" fill="#121826">W.A.F.F.L.E.</text>
+<g class="sans" font-size="16.5" fill="#4b5563">
+  <text x="42" y="148">Wireless Autonomous Flying Fleet for Life Emergencies.</text><text x="42" y="171">Android companion computer &#183; PX4 &#183; PPO pathfinding.</text>
+</g>
+<text x="42" y="214" class="mono" font-size="12" letter-spacing="2" fill="#121826">LOOT &#9656;</text>
+<g><rect x="112" y="196" width="47" height="26" rx="6" fill="#e8ecff" stroke="#121826" stroke-width="2.5"/><text x="136.1" y="213.0" text-anchor="middle" class="mono" font-size="11" letter-spacing="1.2" fill="#121826">PX4</text></g><g><rect x="167" y="196" width="79" height="26" rx="6" fill="#e8ecff" stroke="#121826" stroke-width="2.5"/><text x="207.1" y="213.0" text-anchor="middle" class="mono" font-size="11" letter-spacing="1.2" fill="#121826">DJI SDK</text></g><g><rect x="254" y="196" width="87" height="26" rx="6" fill="#e8ecff" stroke="#121826" stroke-width="2.5"/><text x="298.1" y="213.0" text-anchor="middle" class="mono" font-size="11" letter-spacing="1.2" fill="#121826">PPO / RL</text></g><g><rect x="349" y="196" width="71" height="26" rx="6" fill="#e8ecff" stroke="#121826" stroke-width="2.5"/><text x="385.1" y="213.0" text-anchor="middle" class="mono" font-size="11" letter-spacing="1.2" fill="#121826">KOTLIN</text></g><g><rect x="428" y="196" width="87" height="26" rx="6" fill="#e8ecff" stroke="#121826" stroke-width="2.5"/><text x="472.1" y="213.0" text-anchor="middle" class="mono" font-size="11" letter-spacing="1.2" fill="#121826">MAPLIBRE</text></g>
+
+<!-- screen -->
+<g transform="translate(770 28)">
+  <g clip-path="url(#scW)">
+    <rect width="396" height="206" fill="#e3f1ff"/>
+    
+    <g shape-rendering="crispEdges"><rect x="-4" y="135" width="31" height="55" fill="#bccff0"/><rect x="29" y="127" width="38" height="63" fill="#bccff0"/><rect x="69" y="139" width="34" height="51" fill="#bccff0"/><rect x="105" y="133" width="35" height="57" fill="#bccff0"/><rect x="142" y="81" width="45" height="109" fill="#bccff0"/><rect x="189" y="111" width="44" height="79" fill="#bccff0"/><rect x="235" y="89" width="40" height="101" fill="#bccff0"/><rect x="277" y="135" width="39" height="55" fill="#bccff0"/><rect x="318" y="83" width="29" height="107" fill="#bccff0"/><rect x="349" y="87" width="46" height="103" fill="#bccff0"/><rect x="397" y="130" width="38" height="60" fill="#bccff0"/><rect x="6" y="154" width="33" height="36" fill="#8ea6d6"/><rect x="11" y="160" width="4" height="4" fill="#ffd23f" class="blink-slow" style="animation-delay:0.3s"/><rect x="20" y="160" width="4" height="4" fill="#ffd23f"/><rect x="29" y="170" width="4" height="4" fill="#ffd23f" class="blink-slow" style="animation-delay:1.4s"/><rect x="20" y="180" width="4" height="4" fill="#ffd23f"/><rect x="29" y="180" width="4" height="4" fill="#ffd23f" class="blink-slow" style="animation-delay:2.0s"/><rect x="55" y="157" width="23" height="33" fill="#8ea6d6"/><rect x="60" y="173" width="4" height="4" fill="#ffd23f"/><rect x="69" y="173" width="4" height="4" fill="#ffd23f"/><rect x="91" y="164" width="27" height="26" fill="#8ea6d6"/><rect x="96" y="180" width="4" height="4" fill="#ffd23f" class="blink-slow" style="animation-delay:0.4s"/><rect x="105" y="180" width="4" height="4" fill="#ffd23f"/><rect x="132" y="159" width="28" height="31" fill="#8ea6d6"/><rect x="137" y="165" width="4" height="4" fill="#ffd23f"/><rect x="146" y="165" width="4" height="4" fill="#ffd23f" class="blink-slow" style="animation-delay:0.9s"/><rect x="137" y="175" width="4" height="4" fill="#ffd23f"/><rect x="177" y="155" width="24" height="35" fill="#8ea6d6"/><rect x="182" y="161" width="4" height="4" fill="#ffd23f"/><rect x="182" y="181" width="4" height="4" fill="#ffd23f" class="blink-slow" style="animation-delay:1.6s"/><rect x="191" y="181" width="4" height="4" fill="#ffd23f" class="blink-slow" style="animation-delay:0.8s"/><rect x="213" y="143" width="24" height="47" fill="#8ea6d6"/><rect x="218" y="149" width="4" height="4" fill="#ffd23f" class="blink-slow" style="animation-delay:0.9s"/><rect x="227" y="149" width="4" height="4" fill="#ffd23f"/><rect x="218" y="169" width="4" height="4" fill="#ffd23f" class="blink-slow" style="animation-delay:1.6s"/><rect x="253" y="128" width="38" height="62" fill="#8ea6d6"/><rect x="258" y="154" width="4" height="4" fill="#ffd23f"/><rect x="258" y="164" width="4" height="4" fill="#ffd23f" class="blink-slow" style="animation-delay:1.1s"/><rect x="267" y="164" width="4" height="4" fill="#ffd23f"/><rect x="267" y="174" width="4" height="4" fill="#ffd23f"/><rect x="276" y="174" width="4" height="4" fill="#ffd23f" class="blink-slow" style="animation-delay:1.1s"/><rect x="313" y="154" width="22" height="36" fill="#8ea6d6"/><rect x="318" y="170" width="4" height="4" fill="#ffd23f" class="blink-slow" style="animation-delay:1.4s"/><rect x="327" y="170" width="4" height="4" fill="#ffd23f"/><rect x="318" y="180" width="4" height="4" fill="#ffd23f"/><rect x="349" y="134" width="31" height="56" fill="#8ea6d6"/><rect x="354" y="140" width="4" height="4" fill="#ffd23f"/><rect x="363" y="140" width="4" height="4" fill="#ffd23f"/><rect x="372" y="140" width="4" height="4" fill="#ffd23f"/><rect x="372" y="150" width="4" height="4" fill="#ffd23f"/><rect x="363" y="160" width="4" height="4" fill="#ffd23f" class="blink-slow" style="animation-delay:1.8s"/><rect x="372" y="160" width="4" height="4" fill="#ffd23f"/><rect x="354" y="170" width="4" height="4" fill="#ffd23f" class="blink-slow" style="animation-delay:1.2s"/><rect x="363" y="170" width="4" height="4" fill="#ffd23f"/><rect x="354" y="180" width="4" height="4" fill="#ffd23f"/><rect x="363" y="180" width="4" height="4" fill="#ffd23f"/><rect x="372" y="180" width="4" height="4" fill="#ffd23f"/><rect x="394" y="142" width="33" height="48" fill="#8ea6d6"/><rect x="417" y="148" width="4" height="4" fill="#ffd23f"/><rect x="408" y="168" width="4" height="4" fill="#ffd23f"/><rect x="417" y="168" width="4" height="4" fill="#ffd23f"/><rect x="399" y="178" width="4" height="4" fill="#ffd23f"/><rect x="408" y="178" width="4" height="4" fill="#ffd23f"/><rect x="417" y="178" width="4" height="4" fill="#ffd23f" class="blink-slow" style="animation-delay:1.1s"/></g>
+    <rect y="190" width="396" height="16" fill="#2b3555"/>
+    <path d="M30 160 C 90 60, 170 150, 230 84 S 320 44, 358 74" fill="none" stroke="#ff3d7f" stroke-width="3" stroke-dasharray="8 6" class="dash"/>
+    <g fill="none" stroke="#ff3d7f" stroke-width="2">
+      <circle cx="358" cy="74" r="8"><animate attributeName="r" values="6;22" dur="1.6s" repeatCount="indefinite"/><animate attributeName="opacity" values="1;0" dur="1.6s" repeatCount="indefinite"/></circle>
+    </g>
+    <rect x="356" y="52" width="3" height="24" fill="#121826"/>
+    <rect x="359" y="52" width="16" height="10" fill="#e8381b" class="blink"/>
+    <text x="378" y="46" text-anchor="end" class="mono" font-size="10" letter-spacing="1.5" fill="#e8381b">SOS</text>
+    <g><g shape-rendering="crispEdges"><rect x="-16" y="-8" width="9" height="3" fill="#121826"/><rect x="8" y="-8" width="9" height="3" fill="#121826"/><rect x="-10" y="-5" width="3" height="3" fill="#121826"/><rect x="8" y="-5" width="3" height="3" fill="#121826"/><rect x="-13" y="-2" width="27" height="3" fill="#121826"/><rect x="-16" y="1" width="3" height="3" fill="#121826"/><rect x="-13" y="1" width="9" height="3" fill="#3d5afe"/><rect x="-4" y="1" width="9" height="3" fill="#7fe3ff"/><rect x="5" y="1" width="9" height="3" fill="#3d5afe"/><rect x="14" y="1" width="3" height="3" fill="#121826"/><rect x="-13" y="4" width="27" height="3" fill="#121826"/></g><animateMotion dur="7s" repeatCount="indefinite" path="M30 160 C 90 60, 170 150, 230 84 S 320 44, 358 74"/></g>
+    <g><g shape-rendering="crispEdges"><rect x="-16" y="-8" width="9" height="3" fill="#121826"/><rect x="8" y="-8" width="9" height="3" fill="#121826"/><rect x="-10" y="-5" width="3" height="3" fill="#121826"/><rect x="8" y="-5" width="3" height="3" fill="#121826"/><rect x="-13" y="-2" width="27" height="3" fill="#121826"/><rect x="-16" y="1" width="3" height="3" fill="#121826"/><rect x="-13" y="1" width="9" height="3" fill="#3d5afe"/><rect x="-4" y="1" width="9" height="3" fill="#7fe3ff"/><rect x="5" y="1" width="9" height="3" fill="#3d5afe"/><rect x="14" y="1" width="3" height="3" fill="#121826"/><rect x="-13" y="4" width="27" height="3" fill="#121826"/></g><animateMotion dur="7s" begin="-3.5s" repeatCount="indefinite" path="M30 160 C 90 60, 170 150, 230 84 S 320 44, 358 74"/></g>
+    <text x="384" y="30" text-anchor="end" class="mono" font-size="10" letter-spacing="1.5" fill="#121826">FLEET 04/04</text>
+    <text x="10" y="202" class="mono" font-size="9.5" letter-spacing="1.5" fill="#ffffff">PPO &#9656; WAYPOINT 04</text>
+    <rect width="396" height="206" fill="url(#scan)"/>
+  </g>
+  <rect width="396" height="206" rx="12" fill="none" stroke="#121826" stroke-width="3"/>
+  <g><rect x="12" y="12" width="109.3" height="22" rx="6" fill="#fff" stroke="#121826" stroke-width="2.5"/><text x="67.4" y="26.6" text-anchor="middle" class="mono" font-size="10" letter-spacing="1.5" fill="#121826"><tspan class="blink">&#9679;</tspan> IN FLIGHT</text></g>
+</g>
+</svg>
