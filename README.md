@@ -27,6 +27,13 @@
 **🌊 Why it matters:** accuracy that still holds on low-power hardware, because the places that flood first rarely have a GPU.
 <br><sub><i>🧪 Research build. Details on request.</i></sub>
 
+<a href="https://orbitweb.tech"><img src="assets/quest-orbit.svg" width="100%" alt="Main Quest 04: Orbit, sovereign Matrix messaging with E2EE and WebRTC"></a>
+
+**🔐 Privacy:** end-to-end encryption, SQLCipher local storage and zero telemetry.
+**📞 Calls:** WebRTC audio and video, wire-compatible with Element.
+**🧩 Clients:** Android (Jetpack Compose), Kotlin Multiplatform desktop, and a TypeScript web client.
+<br><sub><i>🔒 Source is private. Landing page at <a href="https://orbitweb.tech">orbitweb.tech</a>.</i></sub>
+
 ## 🗺️ Side Quests
 
 | Quest | Objective | Loot |
@@ -35,8 +42,9 @@
 | 📷 **[Mml](https://github.com/AhmadHasssan9181/Mml)** | On-device moiré detection straight off the camera feed. | `Kotlin` `PyTorch Mobile` |
 | 📚 **[NUML Exam Buddy](https://github.com/AhmadHasssan9181/numl-exam-buddy)** | Crowdsourced study hub with notes, slides and past papers by department. | `Kotlin` `Android` |
 | 🚕 **[Lily suite](https://github.com/AhmadHasssan9181/nlillycaptain)** | Flutter ride-hailing stack: captain app, driver app, admin console. | `Dart` `Firebase` `Maps` |
-| 🛰️ **[Orbit](https://orbitweb.tech)** | Landing + portal for a Matrix-based E2EE communications ecosystem. | `HTML` `CSS` `JS` `Pages` |
 | 🕶️ **[Noobdevs](https://github.com/AhmadHasssan9181/Noobdevs)** | Studio site with a boot sequence, classified dossier and OSINT pipeline views. | `React` `Vite` `CSS` |
+| 🔎 **OSINT toolkit** | A mobile app, a web dashboard and a Python intel hub. *(private)* | `Kotlin` `TypeScript` `Python` |
+| 🎵 **[Tunes](https://github.com/AhmadHasssan9181/tunes)** | Music app that downloads and streams tracks. | `Kotlin` `Android` |
 | 💪 **[FitFusion](https://github.com/AhmadHasssan9181/FitFusion)** | Fitness companion with AI rep counting and form feedback. | `Android` `Vision` |
 | 🎥 **[UAV Person Dataset](https://github.com/AhmadHasssan9181/Manipal-UAV-Person-Dataset)** | Large-scale aerial person-detection dataset: 33 videos, 13k frames. | `Dataset` `CV` |
 
