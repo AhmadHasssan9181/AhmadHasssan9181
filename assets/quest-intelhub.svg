@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="270" viewBox="0 0 1200 270" role="img" aria-label="INTELHUB">
+<title>INTELHUB</title>
+<defs>
+  <pattern id="dots" width="22" height="22" patternUnits="userSpaceOnUse"><rect x="1" y="1" width="2.2" height="2.2" fill="#121826" opacity="0.09"/></pattern>
+  <pattern id="scan" width="4" height="4" patternUnits="userSpaceOnUse"><rect width="4" height="1.2" fill="#121826" opacity="0.05"/></pattern>
+  
+  <clipPath id="qcI"><rect x="6" y="6" width="1180" height="250" rx="18"/></clipPath>
+  <clipPath id="scI"><rect x="0" y="0" width="396" height="206" rx="12"/></clipPath>
+  
+  <style>
+  .mono{font-family:'JetBrains Mono','Cascadia Code',Consolas,'SF Mono',Menlo,monospace;font-weight:700}
+  .disp{font-family:'Arial Black','Segoe UI Black','Helvetica Neue',Impact,Arial,sans-serif;font-weight:900}
+  .sans{font-family:'Segoe UI','Helvetica Neue',system-ui,-apple-system,Arial,sans-serif}
+  .blink{animation:blink 1s steps(1,end) infinite}
+  .blink-slow{animation:blink 1.6s steps(1,end) infinite}
+  @keyframes blink{50%{opacity:0}}
+  @media (prefers-reduced-motion: reduce){*{animation:none!important}}
+
+    .dash{animation:dash 1.2s linear infinite}@keyframes dash{to{stroke-dashoffset:-28}}
+    </style>
+</defs>
+<rect x="14" y="14" width="1180" height="250" rx="18" fill="#ff3d7f"/><rect x="6" y="6" width="1180" height="250" rx="18" fill="#fff" stroke="#121826" stroke-width="3"/>
+<g clip-path="url(#qcI)"><rect x="6" y="6" width="740" height="250" fill="url(#dots)"/></g>
+
+<g><rect x="40" y="30" width="112" height="26" rx="6" fill="#ff3d7f" stroke="#121826" stroke-width="2.5"/><text x="96.75" y="47.3" text-anchor="middle" class="mono" font-size="12" letter-spacing="1.5" fill="#fff">MAIN QUEST</text></g><g><rect x="162" y="30" width="49" height="26" rx="6" fill="#fff" stroke="#121826" stroke-width="2.5"/><text x="187.25" y="47.3" text-anchor="middle" class="mono" font-size="12" letter-spacing="1.5" fill="#121826">#06</text></g>
+<text x="227" y="48" class="mono" font-size="11" letter-spacing="2.2" fill="#8a94a6">&#9656; OSINT / INTELLIGENCE</text>
+<text x="740" y="48" text-anchor="end" class="mono" font-size="11" letter-spacing="2" fill="#8a94a6">DIFFICULTY <tspan font-size="15"><tspan fill="#ff3d7f">&#9733;&#9733;&#9733;&#9733;</tspan><tspan fill="#d6d9e0">&#9733;</tspan></tspan></text>
+
+<text x="44" y="116" class="disp" font-size="54" letter-spacing="-1" fill="#ff3d7f">INTELHUB</text>
+<text x="40" y="112" class="disp" font-size="54" letter-spacing="-1" fill="#121826">INTELHUB</text>
+<g class="sans" font-size="16.5" fill="#4b5563">
+  <text x="42" y="148">OSINT fusion platform: React, Express and FastAPI</text><text x="42" y="171">orchestrating recon tools into one aggregated view.</text>
+</g>
+<text x="42" y="214" class="mono" font-size="12" letter-spacing="2" fill="#121826">LOOT &#9656;</text>
+<g><rect x="112" y="196" width="63" height="26" rx="6" fill="#ffe3ee" stroke="#121826" stroke-width="2.5"/><text x="144.1" y="213.0" text-anchor="middle" class="mono" font-size="11" letter-spacing="1.2" fill="#121826">REACT</text></g><g><rect x="183" y="196" width="79" height="26" rx="6" fill="#ffe3ee" stroke="#121826" stroke-width="2.5"/><text x="223.1" y="213.0" text-anchor="middle" class="mono" font-size="11" letter-spacing="1.2" fill="#121826">FASTAPI</text></g><g><rect x="270" y="196" width="63" height="26" rx="6" fill="#ffe3ee" stroke="#121826" stroke-width="2.5"/><text x="302.1" y="213.0" text-anchor="middle" class="mono" font-size="11" letter-spacing="1.2" fill="#121826">REDIS</text></g><g><rect x="341" y="196" width="87" height="26" rx="6" fill="#ffe3ee" stroke="#121826" stroke-width="2.5"/><text x="385.1" y="213.0" text-anchor="middle" class="mono" font-size="11" letter-spacing="1.2" fill="#121826">POSTGRES</text></g><g><rect x="436" y="196" width="103" height="26" rx="6" fill="#ffe3ee" stroke="#121826" stroke-width="2.5"/><text x="488.1" y="213.0" text-anchor="middle" class="mono" font-size="11" letter-spacing="1.2" fill="#121826">PLAYWRIGHT</text></g>
+
+<!-- screen -->
+<g transform="translate(770 28)">
+  <g clip-path="url(#scI)">
+    <rect width="396" height="206" fill="#fff0f5"/>
+    
+    <path d="M50 60 L198 96" stroke="#121826" stroke-width="2" stroke-dasharray="5 5" opacity="0.45" class="dash"/><rect width="6" height="6" fill="#3d5afe"><animateMotion dur="2.0s" begin="-0s" repeatCount="indefinite" path="M50 60 L198 96"/></rect><path d="M150 40 L198 96" stroke="#121826" stroke-width="2" stroke-dasharray="5 5" opacity="0.45" class="dash"/><rect width="6" height="6" fill="#ff3d7f"><animateMotion dur="2.5s" begin="-0.3s" repeatCount="indefinite" path="M150 40 L198 96"/></rect><path d="M250 44 L198 96" stroke="#121826" stroke-width="2" stroke-dasharray="5 5" opacity="0.45" class="dash"/><rect width="6" height="6" fill="#3d5afe"><animateMotion dur="3.0s" begin="-0.6s" repeatCount="indefinite" path="M250 44 L198 96"/></rect><path d="M340 62 L198 96" stroke="#121826" stroke-width="2" stroke-dasharray="5 5" opacity="0.45" class="dash"/><rect width="6" height="6" fill="#ff3d7f"><animateMotion dur="3.5s" begin="-0.8999999999999999s" repeatCount="indefinite" path="M340 62 L198 96"/></rect><path d="M44 134 L198 96" stroke="#121826" stroke-width="2" stroke-dasharray="5 5" opacity="0.45" class="dash"/><rect width="6" height="6" fill="#3d5afe"><animateMotion dur="2.0s" begin="-1.2s" repeatCount="indefinite" path="M44 134 L198 96"/></rect><path d="M140 150 L198 96" stroke="#121826" stroke-width="2" stroke-dasharray="5 5" opacity="0.45" class="dash"/><rect width="6" height="6" fill="#ff3d7f"><animateMotion dur="2.5s" begin="-1.5s" repeatCount="indefinite" path="M140 150 L198 96"/></rect><path d="M256 148 L198 96" stroke="#121826" stroke-width="2" stroke-dasharray="5 5" opacity="0.45" class="dash"/><rect width="6" height="6" fill="#3d5afe"><animateMotion dur="3.0s" begin="-1.7999999999999998s" repeatCount="indefinite" path="M256 148 L198 96"/></rect><path d="M346 130 L198 96" stroke="#121826" stroke-width="2" stroke-dasharray="5 5" opacity="0.45" class="dash"/><rect width="6" height="6" fill="#ff3d7f"><animateMotion dur="3.5s" begin="-2.1s" repeatCount="indefinite" path="M346 130 L198 96"/></rect><rect x="36" y="53" width="34" height="20" rx="5" fill="#121826"/><rect x="33" y="50" width="34" height="20" rx="5" fill="#ffe3ee" stroke="#121826" stroke-width="2"/><text x="50" y="64" text-anchor="middle" class="mono" font-size="9.5" fill="#121826">API</text><rect x="136" y="33" width="34" height="20" rx="5" fill="#121826"/><rect x="133" y="30" width="34" height="20" rx="5" fill="#e8ecff" stroke="#121826" stroke-width="2"/><text x="150" y="44" text-anchor="middle" class="mono" font-size="9.5" fill="#121826">CLI</text><rect x="236" y="37" width="34" height="20" rx="5" fill="#121826"/><rect x="233" y="34" width="34" height="20" rx="5" fill="#eaf9d9" stroke="#121826" stroke-width="2"/><text x="250" y="48" text-anchor="middle" class="mono" font-size="9.5" fill="#121826">WEB</text><rect x="326" y="55" width="34" height="20" rx="5" fill="#121826"/><rect x="323" y="52" width="34" height="20" rx="5" fill="#fff1dd" stroke="#121826" stroke-width="2"/><text x="340" y="66" text-anchor="middle" class="mono" font-size="9.5" fill="#121826">DB</text><rect x="30" y="127" width="34" height="20" rx="5" fill="#121826"/><rect x="27" y="124" width="34" height="20" rx="5" fill="#ffe3ee" stroke="#121826" stroke-width="2"/><text x="44" y="138" text-anchor="middle" class="mono" font-size="9.5" fill="#121826">DNS</text><rect x="126" y="143" width="34" height="20" rx="5" fill="#121826"/><rect x="123" y="140" width="34" height="20" rx="5" fill="#e8ecff" stroke="#121826" stroke-width="2"/><text x="140" y="154" text-anchor="middle" class="mono" font-size="9.5" fill="#121826">GEO</text><rect x="242" y="141" width="34" height="20" rx="5" fill="#121826"/><rect x="239" y="138" width="34" height="20" rx="5" fill="#eaf9d9" stroke="#121826" stroke-width="2"/><text x="256" y="152" text-anchor="middle" class="mono" font-size="9.5" fill="#121826">IP</text><rect x="332" y="123" width="34" height="20" rx="5" fill="#121826"/><rect x="329" y="120" width="34" height="20" rx="5" fill="#fff1dd" stroke="#121826" stroke-width="2"/><text x="346" y="134" text-anchor="middle" class="mono" font-size="9.5" fill="#121826">DOM</text>
+    <circle cx="198" cy="96" r="26" fill="none" stroke="#ff3d7f" stroke-width="2"><animate attributeName="r" values="22;40" dur="2s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.8;0" dur="2s" repeatCount="indefinite"/></circle>
+    <rect x="170" y="68" width="56" height="56" rx="10" fill="#ffffff" stroke="#121826" stroke-width="3"/>
+    <g shape-rendering="crispEdges"><rect x="181" y="76" width="20" height="5" fill="#121826"/><rect x="176" y="81" width="5" height="5" fill="#121826"/><rect x="181" y="81" width="20" height="5" fill="#7fe3ff"/><rect x="201" y="81" width="5" height="5" fill="#121826"/><rect x="176" y="86" width="5" height="5" fill="#121826"/><rect x="181" y="86" width="5" height="5" fill="#7fe3ff"/><rect x="186" y="86" width="5" height="5" fill="#fff"/><rect x="191" y="86" width="10" height="5" fill="#7fe3ff"/><rect x="201" y="86" width="5" height="5" fill="#121826"/><rect x="176" y="91" width="5" height="5" fill="#121826"/><rect x="181" y="91" width="20" height="5" fill="#7fe3ff"/><rect x="201" y="91" width="5" height="5" fill="#121826"/><rect x="181" y="96" width="25" height="5" fill="#121826"/><rect x="196" y="101" width="15" height="5" fill="#121826"/><rect x="201" y="106" width="15" height="5" fill="#121826"/><rect x="206" y="111" width="15" height="5" fill="#121826"/></g>
+    <rect y="176" width="396" height="30" fill="#2b3555"/>
+    <text x="10" y="196" class="mono" font-size="9.5" letter-spacing="1.5" fill="#ffffff">FUSING SOURCES<tspan class="blink">&#8230;</tspan></text>
+    <text x="384" y="30" text-anchor="end" class="mono" font-size="10" letter-spacing="1.5" fill="#121826">REACT &#183; FASTAPI &#183; REDIS</text>
+    <rect width="396" height="206" fill="url(#scan)"/>
+  </g>
+  <rect width="396" height="206" rx="12" fill="none" stroke="#121826" stroke-width="3"/>
+  <g><rect x="12" y="12" width="86.2" height="22" rx="6" fill="#fff" stroke="#121826" stroke-width="2.5"/><text x="55.85" y="26.6" text-anchor="middle" class="mono" font-size="10" letter-spacing="1.5" fill="#121826"><tspan class="blink">&#9679;</tspan> IN DEV</text></g>
+</g>
+</svg>

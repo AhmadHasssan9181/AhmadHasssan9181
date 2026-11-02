@@ -4,7 +4,7 @@
 </div>
 
 > 🕹️ **Player bio:** I build the bridge between heavy models and real hardware: autonomous flight, on-device vision,
-> and the data pipelines that keep them alive when the Wi-Fi doesn't.
+> decentralized comms, and the intelligence pipelines that keep them alive when the Wi-Fi doesn't.
 
 ## ⚔️ Main Quests
 
@@ -21,18 +21,30 @@
 **🎯 Constraints:** full 384×384 masks from aerial frames, trained on FLAME, built to cope with fire pixels being under 1% of an image.
 <br><sub><i>🔥 PyTorch · trained checkpoint included.</i></sub>
 
-<img src="assets/quest-hydroguard.svg" width="100%" alt="Main Quest 03: HydroGuard, multi-head flood detection for low-power hardware">
+<img src="assets/quest-hydroguard.svg" width="100%" alt="Main Quest 03: HydroGuard / MoistViT, multi-head flood detection for low-power hardware">
 
-**🧬 Model:** a custom multi-head network for real-time flood detection and disaster mitigation.
-**🌊 Why it matters:** accuracy that still holds on low-power hardware, because the places that flood first rarely have a GPU.
-<br><sub><i>🧪 Research build. Details on request.</i></sub>
+**🧬 Model:** custom MoistViT & MobileNet + U-Net multi-head architectures (teacher-student & semi-supervised) adapted on Pakistan flood aerial imagery.
+**🌊 Edge exports:** 512×512 and 768×768 checkpoints exported to ONNX and TorchScript Lite (`.ptl`) for low-power field deployment.
+<br><sub><i>🧪 Research build (`MoistMachine`). Details on request.</i></sub>
 
-<a href="https://orbitweb.tech"><img src="assets/quest-orbit.svg" width="100%" alt="Main Quest 04: Orbit, sovereign Matrix messaging with E2EE and WebRTC"></a>
+<img src="assets/quest-quakevit.svg" width="100%" alt="Main Quest 04: QuakeViT / QuakeSentinel, aerial earthquake structural damage triage">
+
+**🏚️ Architecture:** EfficientViT-B2 + Multi-Scale FPN (plus a lightweight MobileNetV4 variant) with a 3-class triage head: *Background*, *Intact* (Green), and *Damaged/Rubble* (Red).
+**⚡ Field-ready:** trained on xBD earthquake subsets and validated on unseen UAV disaster surveys; exported to ONNX and `.ptl` (3.5–6.5 MB mobile builds).
+<br><sub><i>📉 Pinpoints structural collapse & shear cracking while resisting false alarms on intact roofs and terrain.</i></sub>
+
+<a href="https://orbitweb.tech"><img src="assets/quest-orbit.svg" width="100%" alt="Main Quest 05: Orbit, sovereign Matrix messaging with E2EE and WebRTC"></a>
 
 **🔐 Privacy:** end-to-end encryption, SQLCipher local storage and zero telemetry.
 **📞 Calls:** WebRTC audio and video, wire-compatible with Element.
-**🧩 Clients:** Android (Jetpack Compose), Kotlin Multiplatform desktop, and a TypeScript web client.
+**🧩 Clients:** Android (`orbitx` in Jetpack Compose), Kotlin Multiplatform desktop (`orbit`), and a TypeScript web client (`orbit-web`).
 <br><sub><i>🔒 Source is private. Landing page at <a href="https://orbitweb.tech">orbitweb.tech</a>.</i></sub>
+
+<img src="assets/quest-intelhub.svg" width="100%" alt="Main Quest 06: IntelHub, unified OSINT and intelligence fusion platform">
+
+**🕵️ Fusion engine:** React + Vite command palette (`Ctrl+K`), Express proxy, FastAPI orchestration backend, PostgreSQL and Redis/Arq task queues.
+**🔎 Recon pipelines:** parallel execution and aggregation across email, username, phone, domain and social intelligence tools (`maigret`, `holehe`, `blackbird`, `phoneinfoga`, `ghunt`, Playwright stealth) plus a companion Kotlin Android app (`osintapp`).
+<br><sub><i>🔒 Private suite (`intelhub` · `osintapp` · `osint-lover-ui`).</i></sub>
 
 ## 🗺️ Side Quests
 
@@ -43,7 +55,6 @@
 | 📚 **[NUML Exam Buddy](https://github.com/AhmadHasssan9181/numl-exam-buddy)** | Crowdsourced study hub with notes, slides and past papers by department. | `Kotlin` `Android` |
 | 🚕 **[Lily suite](https://github.com/AhmadHasssan9181/nlillycaptain)** | Flutter ride-hailing stack: captain app, driver app, admin console. | `Dart` `Firebase` `Maps` |
 | 🕶️ **[Noobdevs](https://github.com/AhmadHasssan9181/Noobdevs)** | Studio site with a boot sequence, classified dossier and OSINT pipeline views. | `React` `Vite` `CSS` |
-| 🔎 **OSINT toolkit** | A mobile app, a web dashboard and a Python intel hub. *(private)* | `Kotlin` `TypeScript` `Python` |
 | 🎵 **[Tunes](https://github.com/AhmadHasssan9181/tunes)** | Music app that downloads and streams tracks. | `Kotlin` `Android` |
 | 💪 **[FitFusion](https://github.com/AhmadHasssan9181/FitFusion)** | Fitness companion with AI rep counting and form feedback. | `Android` `Vision` |
 | 🎥 **[UAV Person Dataset](https://github.com/AhmadHasssan9181/Manipal-UAV-Person-Dataset)** | Large-scale aerial person-detection dataset: 33 videos, 13k frames. | `Dataset` `CV` |
