@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="228" viewBox="0 0 1200 228" role="img" aria-label="PYRO">
+<title>PYRO</title>
+<defs>
+  <linearGradient id="cbgP" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#0a0f1b"/>
+    <stop offset="0.6" stop-color="#080c16"/>
+    <stop offset="1" stop-color="#0b1220"/>
+  </linearGradient>
+  <radialGradient id="cglowP" cx="0.5" cy="0.5" r="0.5">
+    <stop offset="0" stop-color="#ff9f45" stop-opacity="0.20"/>
+    <stop offset="1" stop-color="#ff9f45" stop-opacity="0"/>
+  </radialGradient>
+  <linearGradient id="clineP" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#ff9f45" stop-opacity="0"/>
+    <stop offset="0.4" stop-color="#ff9f45"/>
+    <stop offset="0.7" stop-color="#ff5a1f"/>
+    <stop offset="1" stop-color="#ff5a1f" stop-opacity="0"/>
+    <animate attributeName="x1" values="-0.8;0.2" dur="6s" repeatCount="indefinite"/>
+    <animate attributeName="x2" values="0.8;1.8" dur="6s" repeatCount="indefinite"/>
+  </linearGradient>
+  <linearGradient id="ctitleP" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#ffffff"/>
+    <stop offset="1" stop-color="#ff9f45"/>
+  </linearGradient>
+  <clipPath id="cclipP"><rect width="1200" height="228" rx="18"/></clipPath>
+  <clipPath id="artclipP"><rect x="700" y="0" width="500" height="228"/></clipPath>
+  <style>
+    .mono { font-family: 'JetBrains Mono','Cascadia Code',Consolas,'SF Mono',monospace; }
+    .sans { font-family: 'Plus Jakarta Sans','Segoe UI',system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif; }
+    .hz { animation: hz 5s ease-in-out infinite; }
+    .spin { animation: spin 14s linear infinite; transform-origin: 950px 114px; }
+    .spin-r { animation: spinR 22s linear infinite; transform-origin: 950px 114px; }
+    .spin-slow { animation: spin 40s linear infinite; transform-origin: 950px 114px; }
+    @keyframes spin { to { transform: rotate(360deg) } }
+    @keyframes spinR { to { transform: rotate(-360deg) } }
+    @keyframes hz { 0%,100% { opacity:.55 } 50% { opacity:1 } }
+    @media (prefers-reduced-motion: reduce) { * { animation: none !important } }
+    
+    .flick { animation: flick 2.4s ease-in-out infinite; transform-origin: 950px 172px; }
+    .flick2 { animation: flick 1.7s .3s ease-in-out infinite; transform-origin: 950px 172px; }
+    .flick3 { animation: flick 2.9s .7s ease-in-out infinite; transform-origin: 950px 172px; }
+    @keyframes flick { 0%,100% { transform: scaleY(1) scaleX(1); opacity:.95 } 35% { transform: scaleY(1.07) scaleX(.97); opacity:1 } 70% { transform: scaleY(.94) scaleX(1.03); opacity:.88 } }
+    .seg { animation: seg 4s ease-in-out infinite; }
+    @keyframes seg { 0%,100% { opacity:.10 } 50% { opacity:.35 } }
+    .scanbar { animation: scanbar 4.4s cubic-bezier(.45,0,.55,1) infinite; }
+    @keyframes scanbar { 0% { transform: translateY(0) } 55% { transform: translateY(124px) } 100% { transform: translateY(124px); opacity:0 } }
+  
+  </style>
+</defs>
+<defs>
+  <linearGradient id="fireG" x1="0" y1="1" x2="0" y2="0">
+    <stop offset="0" stop-color="#ff5a1f"/><stop offset="0.45" stop-color="#ff9f45"/><stop offset="1" stop-color="#ffe29a"/>
+  </linearGradient>
+  <linearGradient id="scanG" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#7df9ff" stop-opacity="0.5"/><stop offset="1" stop-color="#7df9ff" stop-opacity="0"/>
+  </linearGradient>
+  <filter id="fireBlur" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="7"/></filter>
+</defs>
+<g clip-path="url(#cclipP)">
+  <rect width="1200" height="228" fill="url(#cbgP)"/>
+  <ellipse cx="1010" cy="120" rx="300" ry="200" fill="url(#cglowP)"/>
+  <g stroke="#ffffff" stroke-opacity="0.035" stroke-width="1">
+    <path d="M0 0V228"/><path d="M48 0V228"/><path d="M96 0V228"/><path d="M144 0V228"/><path d="M192 0V228"/><path d="M240 0V228"/><path d="M288 0V228"/><path d="M336 0V228"/><path d="M384 0V228"/><path d="M432 0V228"/><path d="M480 0V228"/><path d="M528 0V228"/><path d="M576 0V228"/><path d="M624 0V228"/><path d="M672 0V228"/><path d="M720 0V228"/><path d="M768 0V228"/><path d="M816 0V228"/><path d="M864 0V228"/><path d="M912 0V228"/><path d="M960 0V228"/><path d="M1008 0V228"/><path d="M1056 0V228"/><path d="M1104 0V228"/><path d="M1152 0V228"/>
+    <path d="M0 0H1200"/><path d="M0 48H1200"/><path d="M0 96H1200"/><path d="M0 144H1200"/><path d="M0 192H1200"/>
+  </g>
+
+  <!-- art side -->
+  <g clip-path="url(#artclipP)">
+    <g>
+      <g opacity="0.5" fill="none" stroke="#ff5a1f" stroke-width="1">
+        <path d="M806 44H1094M806 184H1094" opacity="0.14"/>
+      </g>
+      <g opacity="0.07" fill="#ff9f45">
+        <rect x="808" y="44" width="26" height="18" rx="2"/><rect x="836" y="44" width="26" height="18" rx="2"/><rect x="864" y="44" width="26" height="18" rx="2"/><rect x="892" y="44" width="26" height="18" rx="2"/><rect x="920" y="44" width="26" height="18" rx="2"/><rect x="948" y="44" width="26" height="18" rx="2"/><rect x="976" y="44" width="26" height="18" rx="2"/><rect x="1004" y="44" width="26" height="18" rx="2"/><rect x="1032" y="44" width="26" height="18" rx="2"/><rect x="1060" y="44" width="26" height="18" rx="2"/><rect x="808" y="64" width="26" height="18" rx="2"/><rect x="836" y="64" width="26" height="18" rx="2"/><rect x="864" y="64" width="26" height="18" rx="2"/><rect x="892" y="64" width="26" height="18" rx="2"/><rect x="920" y="64" width="26" height="18" rx="2"/><rect x="948" y="64" width="26" height="18" rx="2"/><rect x="976" y="64" width="26" height="18" rx="2"/><rect x="1004" y="64" width="26" height="18" rx="2"/><rect x="1032" y="64" width="26" height="18" rx="2"/><rect x="1060" y="64" width="26" height="18" rx="2"/><rect x="808" y="84" width="26" height="18" rx="2"/><rect x="836" y="84" width="26" height="18" rx="2"/><rect x="864" y="84" width="26" height="18" rx="2"/><rect x="892" y="84" width="26" height="18" rx="2"/><rect x="920" y="84" width="26" height="18" rx="2"/><rect x="948" y="84" width="26" height="18" rx="2"/><rect x="976" y="84" width="26" height="18" rx="2"/><rect x="1004" y="84" width="26" height="18" rx="2"/><rect x="1032" y="84" width="26" height="18" rx="2"/><rect x="1060" y="84" width="26" height="18" rx="2"/><rect x="808" y="104" width="26" height="18" rx="2"/><rect x="836" y="104" width="26" height="18" rx="2"/><rect x="864" y="104" width="26" height="18" rx="2"/><rect x="892" y="104" width="26" height="18" rx="2"/><rect x="920" y="104" width="26" height="18" rx="2"/><rect x="948" y="104" width="26" height="18" rx="2"/><rect x="976" y="104" width="26" height="18" rx="2"/><rect x="1004" y="104" width="26" height="18" rx="2"/><rect x="1032" y="104" width="26" height="18" rx="2"/><rect x="1060" y="104" width="26" height="18" rx="2"/><rect x="808" y="124" width="26" height="18" rx="2"/><rect x="836" y="124" width="26" height="18" rx="2"/><rect x="864" y="124" width="26" height="18" rx="2"/><rect x="892" y="124" width="26" height="18" rx="2"/><rect x="920" y="124" width="26" height="18" rx="2"/><rect x="948" y="124" width="26" height="18" rx="2"/><rect x="976" y="124" width="26" height="18" rx="2"/><rect x="1004" y="124" width="26" height="18" rx="2"/><rect x="1032" y="124" width="26" height="18" rx="2"/><rect x="1060" y="124" width="26" height="18" rx="2"/><rect x="808" y="144" width="26" height="18" rx="2"/><rect x="836" y="144" width="26" height="18" rx="2"/><rect x="864" y="144" width="26" height="18" rx="2"/><rect x="892" y="144" width="26" height="18" rx="2"/><rect x="920" y="144" width="26" height="18" rx="2"/><rect x="948" y="144" width="26" height="18" rx="2"/><rect x="976" y="144" width="26" height="18" rx="2"/><rect x="1004" y="144" width="26" height="18" rx="2"/><rect x="1032" y="144" width="26" height="18" rx="2"/><rect x="1060" y="144" width="26" height="18" rx="2"/><rect x="808" y="164" width="26" height="18" rx="2"/><rect x="836" y="164" width="26" height="18" rx="2"/><rect x="864" y="164" width="26" height="18" rx="2"/><rect x="892" y="164" width="26" height="18" rx="2"/><rect x="920" y="164" width="26" height="18" rx="2"/><rect x="948" y="164" width="26" height="18" rx="2"/><rect x="976" y="164" width="26" height="18" rx="2"/><rect x="1004" y="164" width="26" height="18" rx="2"/><rect x="1032" y="164" width="26" height="18" rx="2"/><rect x="1060" y="164" width="26" height="18" rx="2"/>
+      </g>
+      <g class="seg" fill="#ffb347">
+        <rect x="880" y="60" width="22" height="16" rx="2" opacity="0.55"/><rect x="902" y="52" width="26" height="18" rx="2" opacity="0.55"/><rect x="930" y="40" width="24" height="20" rx="2" opacity="0.55"/><rect x="954" y="48" width="30" height="16" rx="2" opacity="0.55"/><rect x="984" y="58" width="24" height="18" rx="2" opacity="0.55"/><rect x="866" y="84" width="20" height="16" rx="2" opacity="0.55"/><rect x="910" y="78" width="28" height="20" rx="2" opacity="0.55"/><rect x="944" y="70" width="26" height="22" rx="2" opacity="0.55"/><rect x="972" y="80" width="30" height="18" rx="2" opacity="0.55"/><rect x="1006" y="90" width="22" height="16" rx="2" opacity="0.55"/><rect x="886" y="112" width="26" height="18" rx="2" opacity="0.55"/><rect x="918" y="106" width="24" height="20" rx="2" opacity="0.55"/><rect x="948" y="110" width="30" height="18" rx="2" opacity="0.55"/><rect x="982" y="114" width="24" height="18" rx="2" opacity="0.55"/>
+      </g>
+
+      <g filter="url(#fireBlur)">
+        <path class="flick" d="M950 176 C 918 172 906 146 918 126 C 924 142 934 146 940 140 C 932 118 944 96 962 86 C 956 106 966 116 974 120 C 972 104 982 90 996 84 C 992 104 1006 114 1008 132 C 1022 124 1024 110 1020 100 C 1038 116 1042 142 1026 160 C 1016 174 1000 180 980 180 Z" fill="url(#fireG)"/>
+      </g>
+      <path class="flick2" d="M950 176 C 924 172 916 152 926 136 C 934 150 944 150 948 142 C 942 124 952 108 964 100 C 960 116 972 124 978 132 C 980 118 986 108 994 104 C 992 122 1002 132 1002 146 C 1002 162 990 176 974 178 Z" fill="#ffd08a" opacity="0.55"/>
+      <path class="flick3" d="M950 176 C 934 172 930 158 936 148 C 944 158 952 154 954 148 C 952 136 960 128 968 124 C 966 138 972 148 970 158 C 968 170 960 176 950 176 Z" fill="#fff0d0" opacity="0.5" filter="url(#fireBlur)"/>
+
+      <!-- segmentation contour -->
+      <path d="M950 176 C 918 172 906 146 918 126 C 924 142 934 146 940 140 C 932 118 944 96 962 86 C 956 106 966 116 974 120 C 972 104 982 90 996 84 C 992 104 1006 114 1008 132 C 1022 124 1024 110 1020 100 C 1038 116 1042 142 1026 160 C 1016 174 1000 180 980 180 Z" fill="none" stroke="#7df9ff" stroke-width="1.3" stroke-dasharray="4 4" opacity="0.75"/>
+
+      <g class="scanbar">
+        <rect x="806" y="42" width="288" height="2" fill="#7df9ff" opacity="0.6"/>
+        <rect x="806" y="42" width="288" height="26" fill="url(#scanG)" opacity="0.35"/>
+      </g>
+
+      <g class="mono" font-size="8.5" fill="#7f90a8" letter-spacing="1.4">
+        <text x="848" y="34">FLAME / 384&#215;384</text>
+        <text x="1080" y="200" text-anchor="end">IoU 0.91</text>
+        <text x="1080" y="212" text-anchor="end" fill="#ffb347">SEGMENTING</text>
+      </g>
+    </g>
+  </g>
+  <rect x="700" y="0" width="1" height="228" fill="#ffffff" opacity="0.05"/>
+  <g opacity="0.55"><rect x="700" y="0" width="500" height="228" fill="url(#cglowP)"/></g>
+
+  <!-- left content -->
+  <g class="mono" font-size="10.5" letter-spacing="2.6">
+    <text x="44" y="46" fill="#ff9f45">02</text>
+    <text x="76" y="46" fill="#7f90a8">/ VISION / SEGMENTATION</text>
+    <circle class="hz" cx="1108" cy="42" r="3.4" fill="#ff9f45"/>
+    <text x="1120" y="46" fill="#8fa1b8" font-size="9.5">TRAINED</text>
+  </g>
+
+  <text class="sans" x="42" y="118" font-size="46" font-weight="800" letter-spacing="-1.4" fill="url(#ctitleP)">PYRO</text>
+  <g class="sans" font-size="15.5" fill="#9fb0c6">
+    <text x="44" y="150">Pixel-level pYRotechnic Outlining &#8212; real-time fire</text><text x="44" y="172">segmentation for UAV aerial imagery, built for the edge.</text>
+  </g>
+
+  <g class="mono" font-size="10" letter-spacing="1.4">
+    <g><rect x="44" y="188" width="71.5" height="23" rx="11.5" fill="#ff9f45" fill-opacity="0.09" stroke="#ff9f45" stroke-opacity="0.28"/><text x="79.75" y="203.5" text-anchor="middle" fill="#b9c8dc">PYTORCH</text></g><g><rect x="124.5" y="188" width="97.5" height="23" rx="11.5" fill="#ff9f45" fill-opacity="0.09" stroke="#ff9f45" stroke-opacity="0.28"/><text x="173.25" y="203.5" text-anchor="middle" fill="#b9c8dc">MOBILENETV3</text></g><g><rect x="231" y="188" width="97.5" height="23" rx="11.5" fill="#ff9f45" fill-opacity="0.09" stroke="#ff9f45" stroke-opacity="0.28"/><text x="279.75" y="203.5" text-anchor="middle" fill="#b9c8dc">ASPP + UNET</text></g><g><rect x="337.5" y="188" width="58.5" height="23" rx="11.5" fill="#ff9f45" fill-opacity="0.09" stroke="#ff9f45" stroke-opacity="0.28"/><text x="366.75" y="203.5" text-anchor="middle" fill="#b9c8dc">FLAME</text></g>
+  </g>
+
+  <rect x="0" y="0.5" width="1200" height="1" fill="url(#clineP)"/>
+  <rect x="0" y="227" width="1200" height="1" fill="#ffffff" opacity="0.06"/>
+</g>
+</svg>

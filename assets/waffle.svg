@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="228" viewBox="0 0 1200 228" role="img" aria-label="W.A.F.F.L.E.">
+<title>W.A.F.F.L.E.</title>
+<defs>
+  <linearGradient id="cbgW" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#0a0f1b"/>
+    <stop offset="0.6" stop-color="#080c16"/>
+    <stop offset="1" stop-color="#0b1220"/>
+  </linearGradient>
+  <radialGradient id="cglowW" cx="0.5" cy="0.5" r="0.5">
+    <stop offset="0" stop-color="#22d3ee" stop-opacity="0.20"/>
+    <stop offset="1" stop-color="#22d3ee" stop-opacity="0"/>
+  </radialGradient>
+  <linearGradient id="clineW" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#22d3ee" stop-opacity="0"/>
+    <stop offset="0.4" stop-color="#22d3ee"/>
+    <stop offset="0.7" stop-color="#8b5cf6"/>
+    <stop offset="1" stop-color="#8b5cf6" stop-opacity="0"/>
+    <animate attributeName="x1" values="-0.8;0.2" dur="6s" repeatCount="indefinite"/>
+    <animate attributeName="x2" values="0.8;1.8" dur="6s" repeatCount="indefinite"/>
+  </linearGradient>
+  <linearGradient id="ctitleW" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#ffffff"/>
+    <stop offset="1" stop-color="#22d3ee"/>
+  </linearGradient>
+  <clipPath id="cclipW"><rect width="1200" height="228" rx="18"/></clipPath>
+  <clipPath id="artclipW"><rect x="700" y="0" width="500" height="228"/></clipPath>
+  <style>
+    .mono { font-family: 'JetBrains Mono','Cascadia Code',Consolas,'SF Mono',monospace; }
+    .sans { font-family: 'Plus Jakarta Sans','Segoe UI',system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif; }
+    .hz { animation: hz 5s ease-in-out infinite; }
+    .spin { animation: spin 14s linear infinite; transform-origin: 950px 114px; }
+    .spin-r { animation: spinR 22s linear infinite; transform-origin: 950px 114px; }
+    .spin-slow { animation: spin 40s linear infinite; transform-origin: 950px 114px; }
+    @keyframes spin { to { transform: rotate(360deg) } }
+    @keyframes spinR { to { transform: rotate(-360deg) } }
+    @keyframes hz { 0%,100% { opacity:.55 } 50% { opacity:1 } }
+    @media (prefers-reduced-motion: reduce) { * { animation: none !important } }
+    
+    .blip { animation: blip 3s ease-out infinite; }
+    .blip2 { animation: blip 3s 1s ease-out infinite; }
+    .blip3 { animation: blip 3s 2s ease-out infinite; }
+    @keyframes blip { 0%,100% { opacity:.15 } 15% { opacity:1 } 60% { opacity:.2 } }
+    .flight { stroke-dasharray: 6 7; animation: dash 2.2s linear infinite; }
+    @keyframes dash { to { stroke-dashoffset: -26 } }
+  
+  </style>
+</defs>
+<g clip-path="url(#cclipW)">
+  <rect width="1200" height="228" fill="url(#cbgW)"/>
+  <ellipse cx="1010" cy="120" rx="300" ry="200" fill="url(#cglowW)"/>
+  <g stroke="#ffffff" stroke-opacity="0.035" stroke-width="1">
+    <path d="M0 0V228"/><path d="M48 0V228"/><path d="M96 0V228"/><path d="M144 0V228"/><path d="M192 0V228"/><path d="M240 0V228"/><path d="M288 0V228"/><path d="M336 0V228"/><path d="M384 0V228"/><path d="M432 0V228"/><path d="M480 0V228"/><path d="M528 0V228"/><path d="M576 0V228"/><path d="M624 0V228"/><path d="M672 0V228"/><path d="M720 0V228"/><path d="M768 0V228"/><path d="M816 0V228"/><path d="M864 0V228"/><path d="M912 0V228"/><path d="M960 0V228"/><path d="M1008 0V228"/><path d="M1056 0V228"/><path d="M1104 0V228"/><path d="M1152 0V228"/>
+    <path d="M0 0H1200"/><path d="M0 48H1200"/><path d="M0 96H1200"/><path d="M0 144H1200"/><path d="M0 192H1200"/>
+  </g>
+
+  <!-- art side -->
+  <g clip-path="url(#artclipW)">
+    <g>
+      <g fill="none" stroke="#22d3ee" stroke-width="1" opacity="0.20">
+        <circle cx="950" cy="114" r="36"/><circle cx="950" cy="114" r="66"/><circle cx="950" cy="114" r="96"/>
+      </g>
+      <g stroke="#ffffff" stroke-opacity="0.10" stroke-width="1">
+        <path d="M950 8V220M838 114H1062"/>
+      </g>
+      <g class="spin" opacity="0.85">
+        <path d="M950 114 L950 18 A96 96 0 0 1 1033 66 Z" fill="#22d3ee" opacity="0.10"/>
+        <path d="M950 114 L950 18" stroke="#22d3ee" stroke-width="1.6" opacity="0.65"/>
+      </g>
+      <g class="spin-r" fill="none" stroke="#8b5cf6" stroke-width="1.1" opacity="0.45">
+        <circle cx="950" cy="114" r="96" stroke-dasharray="3 12"/>
+      </g>
+
+      <g>
+        <circle class="blip" cx="1004" cy="86" r="4.5" fill="#ffb347"/>
+        <circle class="blip" cx="1004" cy="86" r="11" fill="none" stroke="#ffb347" stroke-width="1"/>
+        <circle class="blip2" cx="896" cy="146" r="3.6" fill="#22d3ee"/>
+        <circle class="blip2" cx="896" cy="146" r="9" fill="none" stroke="#22d3ee" stroke-width="1"/>
+        <circle class="blip3" cx="986" cy="170" r="3.2" fill="#8b5cf6"/>
+        <circle class="blip3" cx="986" cy="170" r="8" fill="none" stroke="#8b5cf6" stroke-width="1"/>
+      </g>
+
+      <g>
+        <path class="flight" d="M848 176 C 892 120, 940 150, 986 96 S 1058 60, 1082 78" fill="none" stroke="#ffb347" stroke-width="1.4" opacity="0.8"/>
+        <g>
+          <circle r="2.6" fill="#ffb347"/>
+          <animateMotion dur="6s" repeatCount="indefinite" path="M848 176 C 892 120, 940 150, 986 96 S 1058 60, 1082 78"/>
+        </g>
+      </g>
+
+      <g class="mono" font-size="8.5" fill="#7f90a8" letter-spacing="1.4" opacity="0.85">
+        <text x="1074" y="200">PPO &#183; WAYPOINT 04</text>
+        <text x="1074" y="212" fill="#22d3ee">AUTONOMOUS</text>
+        <text x="848" y="34">RANGE 1.2 KM</text>
+      </g>
+    </g>
+  </g>
+  <rect x="700" y="0" width="1" height="228" fill="#ffffff" opacity="0.05"/>
+  <g opacity="0.55"><rect x="700" y="0" width="500" height="228" fill="url(#cglowW)"/></g>
+
+  <!-- left content -->
+  <g class="mono" font-size="10.5" letter-spacing="2.6">
+    <text x="44" y="46" fill="#22d3ee">01</text>
+    <text x="76" y="46" fill="#7f90a8">/ AUTONOMOUS FLEET</text>
+    <circle class="hz" cx="1108" cy="42" r="3.4" fill="#22d3ee"/>
+    <text x="1120" y="46" fill="#8fa1b8" font-size="9.5">IN FLIGHT</text>
+  </g>
+
+  <text class="sans" x="42" y="118" font-size="46" font-weight="800" letter-spacing="-1.4" fill="url(#ctitleW)">W.A.F.F.L.E.</text>
+  <g class="sans" font-size="15.5" fill="#9fb0c6">
+    <text x="44" y="150">Wireless Autonomous Flying Fleet for Life Emergencies.</text><text x="44" y="172">Android companion computer &#183; PX4 &#183; PPO pathfinding.</text>
+  </g>
+
+  <g class="mono" font-size="10" letter-spacing="1.4">
+    <g><rect x="44" y="188" width="45.5" height="23" rx="11.5" fill="#22d3ee" fill-opacity="0.09" stroke="#22d3ee" stroke-opacity="0.28"/><text x="66.75" y="203.5" text-anchor="middle" fill="#b9c8dc">PX4</text></g><g><rect x="98.5" y="188" width="71.5" height="23" rx="11.5" fill="#22d3ee" fill-opacity="0.09" stroke="#22d3ee" stroke-opacity="0.28"/><text x="134.25" y="203.5" text-anchor="middle" fill="#b9c8dc">DJI SDK</text></g><g><rect x="179" y="188" width="78" height="23" rx="11.5" fill="#22d3ee" fill-opacity="0.09" stroke="#22d3ee" stroke-opacity="0.28"/><text x="218" y="203.5" text-anchor="middle" fill="#b9c8dc">PPO / RL</text></g><g><rect x="266" y="188" width="65" height="23" rx="11.5" fill="#22d3ee" fill-opacity="0.09" stroke="#22d3ee" stroke-opacity="0.28"/><text x="298.5" y="203.5" text-anchor="middle" fill="#b9c8dc">KOTLIN</text></g><g><rect x="340" y="188" width="78" height="23" rx="11.5" fill="#22d3ee" fill-opacity="0.09" stroke="#22d3ee" stroke-opacity="0.28"/><text x="379" y="203.5" text-anchor="middle" fill="#b9c8dc">MAPLIBRE</text></g>
+  </g>
+
+  <rect x="0" y="0.5" width="1200" height="1" fill="url(#clineW)"/>
+  <rect x="0" y="227" width="1200" height="1" fill="#ffffff" opacity="0.06"/>
+</g>
+</svg>

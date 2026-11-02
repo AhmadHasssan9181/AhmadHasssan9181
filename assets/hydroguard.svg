@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="228" viewBox="0 0 1200 228" role="img" aria-label="HYDROGUARD">
+<title>HYDROGUARD</title>
+<defs>
+  <linearGradient id="cbgH" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#0a0f1b"/>
+    <stop offset="0.6" stop-color="#080c16"/>
+    <stop offset="1" stop-color="#0b1220"/>
+  </linearGradient>
+  <radialGradient id="cglowH" cx="0.5" cy="0.5" r="0.5">
+    <stop offset="0" stop-color="#38bdf8" stop-opacity="0.20"/>
+    <stop offset="1" stop-color="#38bdf8" stop-opacity="0"/>
+  </radialGradient>
+  <linearGradient id="clineH" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#38bdf8" stop-opacity="0"/>
+    <stop offset="0.4" stop-color="#38bdf8"/>
+    <stop offset="0.7" stop-color="#22d3ee"/>
+    <stop offset="1" stop-color="#22d3ee" stop-opacity="0"/>
+    <animate attributeName="x1" values="-0.8;0.2" dur="6s" repeatCount="indefinite"/>
+    <animate attributeName="x2" values="0.8;1.8" dur="6s" repeatCount="indefinite"/>
+  </linearGradient>
+  <linearGradient id="ctitleH" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#ffffff"/>
+    <stop offset="1" stop-color="#38bdf8"/>
+  </linearGradient>
+  <clipPath id="cclipH"><rect width="1200" height="228" rx="18"/></clipPath>
+  <clipPath id="artclipH"><rect x="700" y="0" width="500" height="228"/></clipPath>
+  <style>
+    .mono { font-family: 'JetBrains Mono','Cascadia Code',Consolas,'SF Mono',monospace; }
+    .sans { font-family: 'Plus Jakarta Sans','Segoe UI',system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif; }
+    .hz { animation: hz 5s ease-in-out infinite; }
+    .spin { animation: spin 14s linear infinite; transform-origin: 950px 114px; }
+    .spin-r { animation: spinR 22s linear infinite; transform-origin: 950px 114px; }
+    .spin-slow { animation: spin 40s linear infinite; transform-origin: 950px 114px; }
+    @keyframes spin { to { transform: rotate(360deg) } }
+    @keyframes spinR { to { transform: rotate(-360deg) } }
+    @keyframes hz { 0%,100% { opacity:.55 } 50% { opacity:1 } }
+    @media (prefers-reduced-motion: reduce) { * { animation: none !important } }
+    
+    .w1 { animation: drift 9s linear infinite; }
+    .w2 { animation: drift 14s linear infinite reverse; }
+    .w3 { animation: drift 20s linear infinite; }
+    @keyframes drift { from { transform: translateX(0) } to { transform: translateX(-140px) } }
+    .ping { animation: ping 3.4s ease-out infinite; transform-origin: 950px 126px; }
+    .ping2 { animation: ping 3.4s 1.7s ease-out infinite; transform-origin: 950px 126px; }
+    @keyframes ping { 0% { transform: scale(.5); opacity:.55 } 100% { transform: scale(1.9); opacity:0 } }
+    .rise { animation: rise 6s ease-in-out infinite; }
+    @keyframes rise { 0%,100% { transform: translateY(4px) } 50% { transform: translateY(-6px) } }
+    @keyframes hz { 0%,100% { opacity:.55 } 50% { opacity:1 } }
+  
+  </style>
+</defs>
+<defs>
+  <linearGradient id="dropG" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#e0f7ff"/><stop offset="0.55" stop-color="#38bdf8"/><stop offset="1" stop-color="#0369a1"/>
+  </linearGradient>
+</defs>
+<g clip-path="url(#cclipH)">
+  <rect width="1200" height="228" fill="url(#cbgH)"/>
+  <ellipse cx="1010" cy="120" rx="300" ry="200" fill="url(#cglowH)"/>
+  <g stroke="#ffffff" stroke-opacity="0.035" stroke-width="1">
+    <path d="M0 0V228"/><path d="M48 0V228"/><path d="M96 0V228"/><path d="M144 0V228"/><path d="M192 0V228"/><path d="M240 0V228"/><path d="M288 0V228"/><path d="M336 0V228"/><path d="M384 0V228"/><path d="M432 0V228"/><path d="M480 0V228"/><path d="M528 0V228"/><path d="M576 0V228"/><path d="M624 0V228"/><path d="M672 0V228"/><path d="M720 0V228"/><path d="M768 0V228"/><path d="M816 0V228"/><path d="M864 0V228"/><path d="M912 0V228"/><path d="M960 0V228"/><path d="M1008 0V228"/><path d="M1056 0V228"/><path d="M1104 0V228"/><path d="M1152 0V228"/>
+    <path d="M0 0H1200"/><path d="M0 48H1200"/><path d="M0 96H1200"/><path d="M0 144H1200"/><path d="M0 192H1200"/>
+  </g>
+
+  <!-- art side -->
+  <g clip-path="url(#artclipH)">
+    <g>
+      <g stroke="#ffffff" stroke-opacity="0.08" stroke-width="1">
+        <path d="M806 196H1094M806 40H1094"/>
+      </g>
+      <g opacity="0.35" fill="none" stroke="#38bdf8" stroke-width="1">
+        <circle cx="950" cy="126" r="46"/><circle cx="950" cy="126" r="74"/>
+      </g>
+      <g class="spin-slow" opacity="0.4" fill="none" stroke="#38bdf8" stroke-width="1" stroke-dasharray="2 10">
+        <circle cx="950" cy="126" r="88"/>
+      </g>
+      <g fill="none" stroke="#7dd3fc" stroke-width="1.2">
+        <circle class="ping" cx="950" cy="126" r="38"/>
+        <circle class="ping2" cx="950" cy="126" r="38"/>
+      </g>
+
+      <g class="rise">
+        <path d="M950 92 C 962 112 974 122 974 136 C 974 150 962 160 950 160 C 938 160 926 150 926 136 C 926 122 938 112 950 92 Z" fill="url(#dropG)" opacity="0.9"/>
+        <path d="M944 130 C 944 138 948 144 954 146" fill="none" stroke="#e0f7ff" stroke-width="1.6" opacity="0.8" stroke-linecap="round"/>
+      </g>
+
+      <g class="w1" opacity="0.55">
+        <path d="M600 176 q 35 -12 70 0 t 70 0 t 70 0 t 70 0 t 70 0 t 70 0 t 70 0 t 70 0 t 70 0 t 70 0 t 70 0 t 70 0" fill="none" stroke="#38bdf8" stroke-width="1.4"/>
+      </g>
+      <g class="w2" opacity="0.35">
+        <path d="M580 190 q 35 12 70 0 t 70 0 t 70 0 t 70 0 t 70 0 t 70 0 t 70 0 t 70 0 t 70 0 t 70 0 t 70 0 t 70 0" fill="none" stroke="#7dd3fc" stroke-width="1.2"/>
+      </g>
+      <g class="w3" opacity="0.22">
+        <path d="M620 160 q 35 -10 70 0 t 70 0 t 70 0 t 70 0 t 70 0 t 70 0 t 70 0 t 70 0 t 70 0 t 70 0 t 70 0 t 70 0" fill="none" stroke="#a5f3fc" stroke-width="1"/>
+      </g>
+
+      <g class="mono" font-size="8.5" fill="#7f90a8" letter-spacing="1.4">
+        <text x="848" y="30">RISK MODEL / MULTI-HEAD</text>
+        <text x="1094" y="204" text-anchor="end" fill="#38bdf8">WATER LEVEL +0.42 m</text>
+        <text x="1094" y="216" text-anchor="end">EDGE &#183; 12 ms</text>
+      </g>
+    </g>
+  </g>
+  <rect x="700" y="0" width="1" height="228" fill="#ffffff" opacity="0.05"/>
+  <g opacity="0.55"><rect x="700" y="0" width="500" height="228" fill="url(#cglowH)"/></g>
+
+  <!-- left content -->
+  <g class="mono" font-size="10.5" letter-spacing="2.6">
+    <text x="44" y="46" fill="#38bdf8">03</text>
+    <text x="76" y="46" fill="#7f90a8">/ CLIMATE / FORECASTING</text>
+    <circle class="hz" cx="1108" cy="42" r="3.4" fill="#38bdf8"/>
+    <text x="1120" y="46" fill="#8fa1b8" font-size="9.5">RESEARCH</text>
+  </g>
+
+  <text class="sans" x="42" y="118" font-size="46" font-weight="800" letter-spacing="-1.4" fill="url(#ctitleH)">HYDROGUARD</text>
+  <g class="sans" font-size="15.5" fill="#9fb0c6">
+    <text x="44" y="150">A multi-head deep learning model for flood detection</text><text x="44" y="172">and disaster mitigation, tuned for low-power inference.</text>
+  </g>
+
+  <g class="mono" font-size="10" letter-spacing="1.4">
+    <g><rect x="44" y="188" width="71.5" height="23" rx="11.5" fill="#38bdf8" fill-opacity="0.09" stroke="#38bdf8" stroke-opacity="0.28"/><text x="79.75" y="203.5" text-anchor="middle" fill="#b9c8dc">PYTORCH</text></g><g><rect x="124.5" y="188" width="91" height="23" rx="11.5" fill="#38bdf8" fill-opacity="0.09" stroke="#38bdf8" stroke-opacity="0.28"/><text x="170" y="203.5" text-anchor="middle" fill="#b9c8dc">MULTI-HEAD</text></g><g><rect x="224.5" y="188" width="117" height="23" rx="11.5" fill="#38bdf8" fill-opacity="0.09" stroke="#38bdf8" stroke-opacity="0.28"/><text x="283" y="203.5" text-anchor="middle" fill="#b9c8dc">EDGE INFERENCE</text></g>
+  </g>
+
+  <rect x="0" y="0.5" width="1200" height="1" fill="url(#clineH)"/>
+  <rect x="0" y="227" width="1200" height="1" fill="#ffffff" opacity="0.06"/>
+</g>
+</svg>
