@@ -53,7 +53,7 @@
 | **[Lily suite](https://github.com/AhmadHasssan9181/nlillycaptain)** | Flutter ride-hailing stack: captain app, driver app, admin console. | `Dart` `Firebase` `Maps` |
 | **[Orbit](https://orbitweb.tech)** | Landing + portal for a Matrix-based E2EE communications ecosystem. | `HTML` `CSS` `JS` `Pages` |
 | **[Noobdevs](https://github.com/AhmadHasssan9181/Noobdevs)** | Studio site with a boot sequence, classified dossier and OSINT pipeline views. | `React` `Vite` `CSS` |
-| **[FitFusion](https://github.com/AhmadHasssan9181/FitFusion)** | Fitness companion with AI rep counting and form feedback. | `Android` `ML Kit` |
+| **[FitFusion](https://github.com/AhmadHasssan9181/FitFusion)** | Fitness companion with AI rep counting and form feedback. | `Android` `Vision` |
 | **[UAV Person Dataset](https://github.com/AhmadHasssan9181/Manipal-UAV-Person-Dataset)** | Large-scale aerial person-detection dataset — 33 videos, 13k frames. | `Dataset` `CV` |
 
 ## `03` · Loadout
