@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="800" viewBox="0 0 800 800">
+<defs>
+  <pattern id="dots" width="28" height="28" patternUnits="userSpaceOnUse">
+    <rect x="2" y="2" width="4" height="4" fill="#121826" opacity="0.09"/>
+  </pattern>
+  <pattern id="scan" width="6" height="6" patternUnits="userSpaceOnUse">
+    <rect width="6" height="2" fill="#121826" opacity="0.04"/>
+  </pattern>
+  <style>
+    .mono{font-family:'Consolas','JetBrains Mono','Cascadia Code',monospace;font-weight:700}
+    .disp{font-family:'Arial Black','Segoe UI Black',Impact,sans-serif;font-weight:900}
+  </style>
+</defs>
+
+<!-- Full-bleed sky & pixel ground -->
+<rect width="800" height="600" fill="#dff0ff"/>
+<rect y="600" width="800" height="200" fill="#c98a4b"/>
+<rect y="600" width="800" height="22" fill="#7ed321"/>
+<rect y="622" width="800" height="9" fill="#4c9a12"/>
+<rect width="800" height="800" fill="url(#dots)"/>
+
+<!-- Bold inner ring inside r=400 crop -->
+<circle cx="400" cy="400" r="372" fill="none" stroke="#121826" stroke-width="12"/>
+
+<!-- Sparkles -->
+<g shape-rendering="crispEdges"><rect x="125" y="250" width="10" height="10" fill="#ff3d7f"/><rect x="115" y="260" width="30" height="10" fill="#ff3d7f"/><rect x="105" y="270" width="50" height="10" fill="#ff3d7f"/><rect x="115" y="280" width="30" height="10" fill="#ff3d7f"/><rect x="125" y="290" width="10" height="10" fill="#ff3d7f"/></g>
+<g shape-rendering="crispEdges"><rect x="660" y="210" width="10" height="10" fill="#ffd23f"/><rect x="650" y="220" width="30" height="10" fill="#ffd23f"/><rect x="640" y="230" width="50" height="10" fill="#ffd23f"/><rect x="650" y="240" width="30" height="10" fill="#ffd23f"/><rect x="660" y="250" width="10" height="10" fill="#ffd23f"/></g>
+<g shape-rendering="crispEdges"><rect x="141" y="480" width="8" height="8" fill="#8b5cf6"/><rect x="133" y="488" width="24" height="8" fill="#8b5cf6"/><rect x="125" y="496" width="40" height="8" fill="#8b5cf6"/><rect x="133" y="504" width="24" height="8" fill="#8b5cf6"/><rect x="141" y="512" width="8" height="8" fill="#8b5cf6"/></g>
+
+<!-- Top Speech Pill -->
+<g transform="translate(210, 74)">
+  <rect x="7" y="7" width="380" height="54" rx="14" fill="#121826"/>
+  <rect x="0" y="0" width="380" height="54" rx="14" fill="#ffd23f" stroke="#121826" stroke-width="6"/>
+  <text x="190" y="36" text-anchor="middle" class="mono" font-size="25" letter-spacing="2" fill="#121826">NO WI-FI? NO PROBLEM</text>
+</g>
+
+<!-- Thruster flames under drone legs -->
+<g shape-rendering="crispEdges"><rect x="268" y="535" width="13" height="13" fill="#e8381b"/><rect x="294" y="535" width="13" height="13" fill="#e8381b"/><rect x="255" y="548" width="13" height="13" fill="#e8381b"/><rect x="268" y="548" width="13" height="13" fill="#ff7a1a"/><rect x="281" y="548" width="13" height="13" fill="#e8381b"/><rect x="294" y="548" width="13" height="13" fill="#ff7a1a"/><rect x="307" y="548" width="13" height="13" fill="#e8381b"/><rect x="242" y="561" width="13" height="13" fill="#e8381b"/><rect x="255" y="561" width="13" height="13" fill="#ff7a1a"/><rect x="268" y="561" width="39" height="13" fill="#ffd23f"/><rect x="307" y="561" width="13" height="13" fill="#ff7a1a"/><rect x="320" y="561" width="13" height="13" fill="#e8381b"/><rect x="255" y="574" width="13" height="13" fill="#e8381b"/><rect x="268" y="574" width="39" height="13" fill="#ffd23f"/><rect x="307" y="574" width="13" height="13" fill="#e8381b"/><rect x="268" y="587" width="13" height="13" fill="#e8381b"/><rect x="281" y="587" width="13" height="13" fill="#ff7a1a"/><rect x="294" y="587" width="13" height="13" fill="#e8381b"/></g>
+<g shape-rendering="crispEdges"><rect x="486" y="535" width="13" height="13" fill="#e8381b"/><rect x="512" y="535" width="13" height="13" fill="#e8381b"/><rect x="473" y="548" width="13" height="13" fill="#e8381b"/><rect x="486" y="548" width="13" height="13" fill="#ff7a1a"/><rect x="499" y="548" width="13" height="13" fill="#e8381b"/><rect x="512" y="548" width="13" height="13" fill="#ff7a1a"/><rect x="525" y="548" width="13" height="13" fill="#e8381b"/><rect x="460" y="561" width="13" height="13" fill="#e8381b"/><rect x="473" y="561" width="13" height="13" fill="#ff7a1a"/><rect x="486" y="561" width="39" height="13" fill="#ffd23f"/><rect x="525" y="561" width="13" height="13" fill="#ff7a1a"/><rect x="538" y="561" width="13" height="13" fill="#e8381b"/><rect x="473" y="574" width="13" height="13" fill="#e8381b"/><rect x="486" y="574" width="39" height="13" fill="#ffd23f"/><rect x="525" y="574" width="13" height="13" fill="#e8381b"/><rect x="486" y="587" width="13" height="13" fill="#e8381b"/><rect x="499" y="587" width="13" height="13" fill="#ff7a1a"/><rect x="512" y="587" width="13" height="13" fill="#e8381b"/></g>
+
+<!-- Cool Crowned Drone with Shades (27x20 * 19px = 513x380) -->
+<g shape-rendering="crispEdges"><rect x="314" y="165" width="19" height="19" fill="#121826"/><rect x="390" y="165" width="19" height="19" fill="#121826"/><rect x="466" y="165" width="19" height="19" fill="#121826"/><rect x="314" y="184" width="38" height="19" fill="#121826"/><rect x="371" y="184" width="57" height="19" fill="#121826"/><rect x="447" y="184" width="38" height="19" fill="#121826"/><rect x="314" y="203" width="19" height="19" fill="#121826"/><rect x="333" y="203" width="133" height="19" fill="#ffd23f"/><rect x="466" y="203" width="19" height="19" fill="#121826"/><rect x="314" y="222" width="171" height="19" fill="#121826"/><rect x="181" y="241" width="133" height="19" fill="#121826"/><rect x="390" y="241" width="19" height="19" fill="#121826"/><rect x="485" y="241" width="133" height="19" fill="#121826"/><rect x="238" y="260" width="19" height="19" fill="#121826"/><rect x="390" y="260" width="19" height="19" fill="#121826"/><rect x="542" y="260" width="19" height="19" fill="#121826"/><rect x="219" y="279" width="361" height="19" fill="#121826"/><rect x="200" y="298" width="19" height="19" fill="#121826"/><rect x="219" y="298" width="361" height="19" fill="#3d5afe"/><rect x="580" y="298" width="19" height="19" fill="#121826"/><rect x="181" y="317" width="19" height="19" fill="#121826"/><rect x="200" y="317" width="38" height="19" fill="#3d5afe"/><rect x="238" y="317" width="38" height="19" fill="#ffffff"/><rect x="276" y="317" width="323" height="19" fill="#3d5afe"/><rect x="599" y="317" width="19" height="19" fill="#121826"/><rect x="181" y="336" width="19" height="19" fill="#121826"/><rect x="200" y="336" width="76" height="19" fill="#3d5afe"/><rect x="276" y="336" width="247" height="19" fill="#121826"/><rect x="523" y="336" width="76" height="19" fill="#3d5afe"/><rect x="599" y="336" width="19" height="19" fill="#121826"/><rect x="162" y="355" width="475" height="19" fill="#121826"/><rect x="162" y="374" width="19" height="19" fill="#121826"/><rect x="181" y="374" width="76" height="19" fill="#3d5afe"/><rect x="257" y="374" width="38" height="19" fill="#121826"/><rect x="295" y="374" width="38" height="19" fill="#ffffff"/><rect x="333" y="374" width="114" height="19" fill="#121826"/><rect x="447" y="374" width="38" height="19" fill="#ffffff"/><rect x="485" y="374" width="57" height="19" fill="#121826"/><rect x="542" y="374" width="76" height="19" fill="#3d5afe"/><rect x="618" y="374" width="19" height="19" fill="#121826"/><rect x="162" y="393" width="19" height="19" fill="#121826"/><rect x="181" y="393" width="76" height="19" fill="#3d5afe"/><rect x="257" y="393" width="285" height="19" fill="#121826"/><rect x="542" y="393" width="76" height="19" fill="#3d5afe"/><rect x="618" y="393" width="19" height="19" fill="#121826"/><rect x="181" y="412" width="19" height="19" fill="#121826"/><rect x="200" y="412" width="76" height="19" fill="#3d5afe"/><rect x="276" y="412" width="19" height="19" fill="#121826"/><rect x="295" y="412" width="209" height="19" fill="#7fe3ff"/><rect x="504" y="412" width="19" height="19" fill="#121826"/><rect x="523" y="412" width="76" height="19" fill="#3d5afe"/><rect x="599" y="412" width="19" height="19" fill="#121826"/><rect x="181" y="431" width="19" height="19" fill="#121826"/><rect x="200" y="431" width="76" height="19" fill="#3d5afe"/><rect x="276" y="431" width="19" height="19" fill="#121826"/><rect x="295" y="431" width="76" height="19" fill="#7fe3ff"/><rect x="371" y="431" width="57" height="19" fill="#ff3d7f"/><rect x="428" y="431" width="76" height="19" fill="#7fe3ff"/><rect x="504" y="431" width="19" height="19" fill="#121826"/><rect x="523" y="431" width="76" height="19" fill="#3d5afe"/><rect x="599" y="431" width="19" height="19" fill="#121826"/><rect x="181" y="450" width="19" height="19" fill="#121826"/><rect x="200" y="450" width="76" height="19" fill="#3d5afe"/><rect x="276" y="450" width="19" height="19" fill="#121826"/><rect x="295" y="450" width="209" height="19" fill="#7fe3ff"/><rect x="504" y="450" width="19" height="19" fill="#121826"/><rect x="523" y="450" width="76" height="19" fill="#3d5afe"/><rect x="599" y="450" width="19" height="19" fill="#121826"/><rect x="200" y="469" width="19" height="19" fill="#121826"/><rect x="219" y="469" width="76" height="19" fill="#3d5afe"/><rect x="295" y="469" width="209" height="19" fill="#121826"/><rect x="504" y="469" width="76" height="19" fill="#3d5afe"/><rect x="580" y="469" width="19" height="19" fill="#121826"/><rect x="219" y="488" width="361" height="19" fill="#121826"/><rect x="257" y="507" width="19" height="19" fill="#121826"/><rect x="276" y="507" width="38" height="19" fill="#ffd23f"/><rect x="314" y="507" width="19" height="19" fill="#121826"/><rect x="466" y="507" width="19" height="19" fill="#121826"/><rect x="485" y="507" width="38" height="19" fill="#ffd23f"/><rect x="523" y="507" width="19" height="19" fill="#121826"/><rect x="238" y="526" width="38" height="19" fill="#121826"/><rect x="314" y="526" width="38" height="19" fill="#121826"/><rect x="447" y="526" width="38" height="19" fill="#121826"/><rect x="523" y="526" width="38" height="19" fill="#121826"/></g>
+
+<!-- Floating Pixel Coffee Mug held on the right -->
+<g transform="translate(605, 365) rotate(8)">
+  <g shape-rendering="crispEdges"><rect x="24" y="0" width="12" height="12" fill="#ffffff"/><rect x="60" y="0" width="12" height="12" fill="#ffffff"/><rect x="12" y="12" width="12" height="12" fill="#ffffff"/><rect x="48" y="12" width="12" height="12" fill="#ffffff"/><rect x="0" y="36" width="96" height="12" fill="#121826"/><rect x="0" y="48" width="12" height="12" fill="#121826"/><rect x="12" y="48" width="72" height="12" fill="#ff3d7f"/><rect x="84" y="48" width="24" height="12" fill="#121826"/><rect x="0" y="60" width="12" height="12" fill="#121826"/><rect x="12" y="60" width="12" height="12" fill="#ff3d7f"/><rect x="24" y="60" width="48" height="12" fill="#ffffff"/><rect x="72" y="60" width="12" height="12" fill="#ff3d7f"/><rect x="96" y="60" width="12" height="12" fill="#121826"/><rect x="0" y="72" width="12" height="12" fill="#121826"/><rect x="12" y="72" width="72" height="12" fill="#ff3d7f"/><rect x="84" y="72" width="24" height="12" fill="#121826"/><rect x="0" y="84" width="12" height="12" fill="#121826"/><rect x="12" y="84" width="72" height="12" fill="#ff3d7f"/><rect x="84" y="84" width="12" height="12" fill="#121826"/><rect x="12" y="96" width="72" height="12" fill="#121826"/></g>
+</g>
+
+<!-- Bottom HUD Tag -->
+<g transform="translate(185, 628)">
+  <rect x="7" y="7" width="430" height="68" rx="14" fill="#ff3d7f"/>
+  <rect x="0" y="0" width="430" height="68" rx="14" fill="#121826"/>
+  <circle cx="38" cy="34" r="10" fill="#7ed321"/>
+  <text x="64" y="43" class="mono" font-size="26" letter-spacing="2.5" fill="#ffffff">AHMAD.EXE</text>
+  <text x="402" y="43" text-anchor="end" class="mono" font-size="24" letter-spacing="2" fill="#ffd23f">LV.99</text>
+</g>
+
+<rect width="800" height="800" fill="url(#scan)"/>
+</svg>
