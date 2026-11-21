@@ -15,6 +15,12 @@
 **🗺️ Ops:** MapLibre vector maps + OpenRouteService and GraphHopper for offline disaster-zone navigation.
 <br><sub><i>🚁 <a href="https://github.com/AhmadHasssan9181/Waffle">github.com/AhmadHasssan9181/Waffle</a> • Jetpack Compose & Offline Routing.</i></sub>
 
+<a href="https://github.com/AhmadHasssan9181/DeltaForge"><img src="assets/quest-deltaforge.svg" width="100%" alt="Main Quest 02: DeltaForge, Precision-Safe RLVR and Spatial Blueprint Reasoning for Single-GPU 9B Procedural CAD"></a>
+
+**🧱 Pipeline:** post-trained `Qwen3.5-9B` on one RTX 3090 (24 GB) via SFT, best-of-8 VLM visual repair, split-graph BF16 DPO, online GRPO, and script-aligned `<think>` Z-blueprints (**92.3% pass@1 / 100.0% pass@3** across 168 multi-seed Blender 5.2 holdout runs).
+**⚡ Systems fix:** diagnosed and solved 4-bit NF4 LoRA merge collapse on GatedDeltaNet layers ($\cos=0.9224 \to 0.9995$ BF16) with native 16-bit BF16 LoRA, `<6 GB` streaming merges, and `Q8_0` GGUF serving (~200 tok/s).
+<br><sub><i>🧊 <a href="https://github.com/AhmadHasssan9181/DeltaForge">github.com/AhmadHasssan9181/DeltaForge</a> • IEEE Paper, Scripts & Local GGUFs (Full Open-Source Release Soon).</i></sub>
+
 <a href="https://github.com/AhmadHasssan9181/PYRO"><img src="assets/quest-pyro.svg" width="100%" alt="Main Quest 02: PYRO, real-time fire segmentation for UAV aerial imagery"></a>
 
 **🧠 Architecture:** MobileNetV3-Small encoder, ASPP bottleneck, 5-stage U-Net decoder with SE attention on the skips.
